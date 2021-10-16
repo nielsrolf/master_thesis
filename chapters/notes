@@ -1,0 +1,48 @@
+Intro
+- What can the model we are working with do?
+- Why are we interested?
+- How will we use transfer learning?
+
+Related work
+- DDSP, Timbre Painting, VQVAE, GANsynth, wavenet, diffusion models, …
+- Transfer learning
+
+Methodology
+- Base model ablations
+    - Preprocessing, encoder architecture, latent code, synth layers, spectral loss, adversarial loss
+- How I evaluate models
+- Transfer learning during inference
+    - Which training/inference data combinations work without transfer learning well/not so well?
+    - Can we improve it using transfer learning?
+
+Experimental results: base model
+- Baseline:
+    Works quite well on various data types for reconstruction, but neither transfer nor out of distribution reconstruction
+    Squeaky artifacts
+- Constant z:
+    Improves timbre transfer a lot
+- Time aggregation: slight improvements via more complex model
+- Loudness: Improves squeaky noises in silent parts a lot
+- Spectral Loss
+    - Logmag is really noise
+    - Unskewed spectral loss shows visually the interesting parts of the signal
+    - Works well for training
+- No CREPE
+    - Does not work
+    - Encoders can learn if the gradients are correct
+    - Sorry for your loss paper
+Experimental results: transfer learning
+    - Does it improve reconstruction? (yes)
+    - Does it improve timbre transfer?
+    - What is the best setup for using transfer learning?
+        - fixing encoder vs not?
+        - how many train steps?
+        - does the model forget the original task?
+        - does it enable audio source separation?
+- Experimental results: failed approaches
+    - Training as a GAN
+        - Training the discriminator is hard: it takes way too many train steps to learn to distinguish even an untrained generator output from real data
+    - Approximate Spectral Loss
+        - works for pure sine waves
+        - approximating (synth_params -> spectrogram) becomes the bottleneck as the signal becomes more complex
+- Conclusion

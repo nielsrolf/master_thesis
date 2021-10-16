@@ -1,0 +1,24 @@
+for d in dirs:
+    dur = 0
+    for f in glob(f"{d}/*/*.wav"):
+        dur += librosa.get_duration(filename=f)
+    print(d, f"{int(dur//60)}:{int(dur%60)}")
+
+... 
+IDMT-SMT-BASS-SINGLE-TRACKS 0:0
+IDMT-SMT-DRUMS-V2 64:50
+IDMT-SMT-GUITAR_V2 0:0
+bass_test 2:20
+bass_train 3:30
+drums 50:28
+drums_test 1:56
+drums_train 21:12
+guitar_test 22:48
+guitar_train 38:26
+idmt_drum_test 23:43
+idmt_drum_train 34:10
+sh101 0:0
+sh101_test 5:26
+sh101_train 48:43
+urmp_test 34:24
+urmp_train 241:19

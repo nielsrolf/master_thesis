@@ -1,0 +1,2069 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{ddsp}{article}{}
+    \name{author}{4}{}{%
+      {{hash=EJ}{%
+         family={Engel},
+         familyi={E\bibinitperiod},
+         given={Jesse},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HL}{%
+         family={Hantrakul},
+         familyi={H\bibinitperiod},
+         given={Lamtharn},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Gu},
+         familyi={G\bibinitperiod},
+         given={Chenjie},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Roberts},
+         familyi={R\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{EJHLGCRA1}
+    \strng{fullhash}{EJHLGCRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Most generative models of audio directly generate samples in one of two
+  domains: time or frequency. While sufﬁcient to express any signal, these
+  representations are inefﬁcient, as they do not utilize existing knowledge
+  of how sound is generated and perceived. A third approach
+  (vocoders/synthesizers) successfully incorporates strong domain knowledge of
+  signal processing and perception, but has been less actively researched due
+  to limited expressivity and difﬁculty integrating with modern
+  auto-differentiation-based machine learning methods. In this paper, we
+  introduce the Differentiable Digital Signal Processing (DDSP) library, which
+  enables direct integration of classic signal processing elements with deep
+  learning methods. Focusing on audio synthesis, we achieve high-ﬁdelity
+  generation without the need for large autoregressive models or adversarial
+  losses, demonstrating that DDSP enables utilizing strong inductive biases
+  without losing the expressive power of neural networks. Further, we show that
+  combining interpretable modules permits manipulation of each separate model
+  component, with applications such as independent control of pitch and
+  loudness, realistic extrapolation to pitches not seen during training, blind
+  dereverberation of room acoustics, transfer of extracted room acoustics to
+  new environments, and transformation of timbre between disparate sources. In
+  short, DDSP enables an interpretable and modular approach to generative
+  modeling, without sacriﬁcing the beneﬁts of deep learning. The library is
+  publicly available1 and we welcome further contributions from the community
+  and domain experts.%
+    }
+    \field{pages}{19}
+    \field{title}{{DIFFERENTIABLE} {DIGITAL} {SIGNAL} {PROCESSING}}
+    \verb{file}
+    \verb Engel et al. - 2020 - DIFFERENTIABLE DIGITAL SIGNAL PROCESSING.pdf:/U
+    \verb sers/p378593/Zotero/storage/I7V4YACC/Engel et al. - 2020 - DIFFERENTI
+    \verb ABLE DIGITAL SIGNAL PROCESSING.pdf:application/pdf
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{jukebox}{article}{}
+    \name{author}{6}{}{%
+      {{hash=DP}{%
+         family={Dhariwal},
+         familyi={D\bibinitperiod},
+         given={Prafulla},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=JH}{%
+         family={Jun},
+         familyi={J\bibinitperiod},
+         given={Heewoo},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={Payne},
+         familyi={P\bibinitperiod},
+         given={Christine},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KJW}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Jong\bibnamedelima Wook},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Radford},
+         familyi={R\bibinitperiod},
+         given={Alec},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Sutskever},
+         familyi={S\bibinitperiod},
+         given={Ilya},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Machine Learning, Statistics - Machine Learning,
+  Computer Science - Sound, Electrical Engineering and Systems Science - Audio
+  and Speech Processing}
+    \strng{namehash}{DPJHPCKJWRASI1}
+    \strng{fullhash}{DPJHPCKJWRASI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    We introduce Jukebox, a model that generates music with singing in the raw
+  audio domain. We tackle the long context of raw audio using a multi-scale
+  VQ-VAE to compress it to discrete codes, and modeling those using
+  autoregressive Transformers. We show that the combined model at scale can
+  generate high-fidelity and diverse songs with coherence up to multiple
+  minutes. We can condition on artist and genre to steer the musical and vocal
+  style, and on unaligned lyrics to make the singing more controllable. We are
+  releasing thousands of non cherry-picked samples at
+  https://jukebox.openai.com, along with model weights and code at
+  https://github.com/openai/jukebox%
+    }
+    \field{note}{arXiv: 2005.00341}
+    \field{shorttitle}{Jukebox}
+    \field{title}{Jukebox: {A} {Generative} {Model} for {Music}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2005.00341
+    \endverb
+    \verb{file}
+    \verb arXiv Fulltext PDF:/Users/p378593/Zotero/storage/SGK3S6IW/Dhariwal et
+    \verb  al. - 2020 - Jukebox A Generative Model for Music.pdf:application/pd
+    \verb f;arXiv.org Snapshot:/Users/p378593/Zotero/storage/5FFKUFSF/2005.html
+    \verb :text/html
+    \endverb
+    \field{journaltitle}{arXiv:2005.00341 [cs, eess, stat]}
+    \field{month}{04}
+    \field{year}{2020}
+    \field{urlday}{15}
+    \field{urlmonth}{10}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{wang_neural_2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=WX}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Xin},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Takaki},
+         familyi={T\bibinitperiod},
+         given={Shinji},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=YJ}{%
+         family={Yamagishi},
+         familyi={Y\bibinitperiod},
+         given={Junichi},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Sound, Electrical Engineering and Systems Science
+  - Audio and Speech Processing, Statistics - Machine Learning}
+    \strng{namehash}{WXTSYJ1}
+    \strng{fullhash}{WXTSYJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Neural waveform models such as WaveNet have demonstrated better performance
+  than conventional vocoders for statistical parametric speech synthesis. As an
+  autoregressive (AR) model, WaveNet is limited by a slow sequential waveform
+  generation process. Some new models that use the inverse-autoregressive flow
+  (IAF) can generate a whole waveform in a one-shot manner. However, these
+  IAF-based models require sequential transformation during training, which
+  severely slows down the training speed. Other models such as Parallel WaveNet
+  and ClariNet bring together the benefits of AR and IAF-based models and train
+  an IAF model by transferring the knowledge from a pre-trained AR teacher to
+  an IAF student without any sequential transformation. However, both models
+  require additional training criteria, and their implementation is
+  prohibitively complicated. We propose a framework for neural source-filter
+  (NSF) waveform modeling without AR nor IAF-based approaches. This framework
+  requires only three components for waveform generation: a source module that
+  generates a sine-based signal as excitation, a non-AR
+  dilated-convolution-based filter module that transforms the excitation into a
+  waveform, and a conditional module that pre-processes the acoustic features
+  for the source and filer modules. This framework minimizes spectral-amplitude
+  distances for model training, which can be efficiently implemented by using
+  short-time Fourier transform routines. Under this framework, we designed
+  three NSF models and compared them with WaveNet. It was demonstrated that the
+  NSF models generated waveforms at least 100 times faster than WaveNet, and
+  the quality of the synthetic speech from the best NSF model was better than
+  or equally good as that from WaveNet.%
+    }
+    \field{note}{arXiv: 1904.12088}
+    \field{title}{Neural source-filter waveform models for statistical
+  parametric speech synthesis}
+    \verb{url}
+    \verb http://arxiv.org/abs/1904.12088
+    \endverb
+    \verb{file}
+    \verb arXiv Fulltext PDF:/Users/nielswarncke/Zotero/storage/TTGANEPD/Wang e
+    \verb t al. - 2019 - Neural source-filter waveform models for statistic.pdf
+    \verb :application/pdf;arXiv.org Snapshot:/Users/nielswarncke/Zotero/storag
+    \verb e/V2ASXIIE/1904.html:text/html
+    \endverb
+    \field{journaltitle}{arXiv:1904.12088 [cs, eess, stat]}
+    \field{annotation}{%
+    Comment: Accepted to IEEE/ACM TASLP. Note: this paper is on a follow-up
+  work of our ICASSP paper. Based on the h-NSF introduced in this work, we
+  proposed a h-sinc-NSF model and published the third paper in SSW 10
+  (https://www.isca-speech.org/archive/SSW\_2019/pdfs/SSW10\_O\_1-1.pdf)%
+    }
+    \field{month}{11}
+    \field{year}{2019}
+    \field{urlday}{22}
+    \field{urlmonth}{07}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{hantrakul_fast_2019-1}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HL}{%
+         family={Hantrakul},
+         familyi={H\bibinitperiod},
+         given={Lamtharn},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Engel},
+         familyi={E\bibinitperiod},
+         given={Jesse},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Roberts},
+         familyi={R\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Gu},
+         familyi={G\bibinitperiod},
+         given={Chenjie},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{HLEJRAGC1}
+    \strng{fullhash}{HLEJRAGC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{7}
+    \field{title}{{FAST} {AND} {FLEXIBLE} {NEURAL} {AUDIO} {SYNTHESIS}}
+    \verb{file}
+    \verb Hantrakul et al. - 2019 - FAST AND FLEXIBLE NEURAL AUDIO SYNTHESIS.pd
+    \verb f:/Users/nielswarncke/Zotero/storage/GTB986ZC/Hantrakul et al. - 2019
+    \verb  - FAST AND FLEXIBLE NEURAL AUDIO SYNTHESIS.pdf:application/pdf
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{michelashvili_hierarchical_2020}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MM}{%
+         family={Michelashvili},
+         familyi={M\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WL}{%
+         family={Wolf},
+         familyi={W\bibinitperiod},
+         given={Lior},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Machine Learning, Computer Science - Sound,
+  Electrical Engineering and Systems Science - Audio and Speech Processing}
+    \strng{namehash}{MMWL1}
+    \strng{fullhash}{MMWL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We present a fast and high-fidelity method for music generation, based on
+  specified f0 and loudness, such that the synthesized audio mimics the timbre
+  and articulation of a target instrument. The generation process consists of
+  learned source-filtering networks, which reconstruct the signal at increasing
+  resolutions. The model optimizes a multi-resolution spectral loss as the
+  reconstruction loss, an adversarial loss to make the audio sound more
+  realistic, and a perceptual f0 loss to align the output to the desired input
+  pitch contour. The proposed architecture enables high-quality fitting of an
+  instrument, given a sample that can be as short as a few minutes, and the
+  method demonstrates state-of-the-art timbre transfer capabilities. Code and
+  audio samples are shared at https://github.com/mosheman5/timbre\_painting.%
+    }
+    \field{note}{arXiv: 2008.13095}
+    \field{title}{Hierarchical {Timbre}-{Painting} and {Articulation}
+  {Generation}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2008.13095
+    \endverb
+    \verb{file}
+    \verb arXiv Fulltext PDF:/Users/p378593/Zotero/storage/8WLA6SDX/Michelashvi
+    \verb li und Wolf - 2020 - Hierarchical Timbre-Painting and Articulation Ge
+    \verb ne.pdf:application/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/stora
+    \verb ge/MNLGP9NX/2008.html:text/html
+    \endverb
+    \field{journaltitle}{arXiv:2008.13095 [cs, eess]}
+    \field{annotation}{%
+    Comment: accepted in Proc. of the 21st International Society for Music
+  Information Retrieval (ISMIR2020)%
+    }
+    \field{month}{09}
+    \field{year}{2020}
+    \field{urlday}{11}
+    \field{urlmonth}{11}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{yamamoto_parallel_2020}{article}{}
+    \name{author}{3}{}{%
+      {{hash=YR}{%
+         family={Yamamoto},
+         familyi={Y\bibinitperiod},
+         given={Ryuichi},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Eunwoo},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=KJM}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Jae-Min},
+         giveni={J\bibinithyphendelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Machine Learning, Computer Science - Sound,
+  Electrical Engineering and Systems Science - Audio and Speech Processing,
+  Electrical Engineering and Systems Science - Signal Processing}
+    \strng{namehash}{YRSEKJM1}
+    \strng{fullhash}{YRSEKJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    We propose Parallel WaveGAN, a distillation-free, fast, and small-footprint
+  waveform generation method using a generative adversarial network. In the
+  proposed method, a non-autoregressive WaveNet is trained by jointly
+  optimizing multi-resolution spectrogram and adversarial loss functions, which
+  can effectively capture the time-frequency distribution of the realistic
+  speech waveform. As our method does not require density distillation used in
+  the conventional teacher-student framework, the entire model can be easily
+  trained. Furthermore, our model is able to generate high-fidelity speech even
+  with its compact architecture. In particular, the proposed Parallel WaveGAN
+  has only 1.44 M parameters and can generate 24 kHz speech waveform 28.68
+  times faster than real-time on a single GPU environment. Perceptual listening
+  test results verify that our proposed method achieves 4.16 mean opinion score
+  within a Transformer-based text-to-speech framework, which is comparative to
+  the best distillation-based Parallel WaveNet system.%
+    }
+    \field{note}{arXiv: 1910.11480}
+    \field{shorttitle}{Parallel {WaveGAN}}
+    \field{title}{Parallel {WaveGAN}: {A} fast waveform generation model based
+  on generative adversarial networks with multi-resolution spectrogram}
+    \verb{url}
+    \verb http://arxiv.org/abs/1910.11480
+    \endverb
+    \verb{file}
+    \verb arXiv Fulltext PDF:/Users/p378593/Zotero/storage/FHVIK2NK/Yamamoto et
+    \verb  al. - 2020 - Parallel WaveGAN A fast waveform generation model.pdf:a
+    \verb pplication/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/N99MJ
+    \verb TG8/1910.html:text/html
+    \endverb
+    \field{journaltitle}{arXiv:1910.11480 [cs, eess]}
+    \field{annotation}{%
+    Comment: Accepted to the conference of ICASSP 2020%
+    }
+    \field{month}{02}
+    \field{year}{2020}
+    \field{urlday}{15}
+    \field{urlmonth}{10}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{hayes_neural_nodate}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HB}{%
+         family={Hayes},
+         familyi={H\bibinitperiod},
+         given={Ben},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Saitis},
+         familyi={S\bibinitperiod},
+         given={Charalampos},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FG}{%
+         family={Fazekas},
+         familyi={F\bibinitperiod},
+         given={George},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{HBSCFG1}
+    \strng{fullhash}{HBSCFG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We present the Neural Waveshaping Unit (NEWT): a novel, lightweight, fully
+  causal approach to neural audio synthesis which operates directly in the
+  waveform domain, with an accompanying optimisation (FastNEWT) for efﬁcient
+  CPU inference. The NEWT uses time-distributed multilayer perceptrons with
+  periodic activations to implicitly learn nonlinear transfer functions that
+  encode the characteristics of a target timbre. Once trained, a NEWT can
+  produce complex timbral evolutions by simple afﬁne transformations of its
+  input and output signals. We paired the NEWT with a differentiable noise
+  synthesiser and reverb and found it capable of generating realistic musical
+  instrument performances with only 260k total model parameters, conditioned on
+  F0 and loudness features. We compared our method to state-of-the-art
+  benchmarks with a multistimulus listening test and the Fréchet Audio
+  Distance and found it performed competitively across the tested timbral
+  domains. Our method signiﬁcantly outperformed the benchmarks in terms of
+  generation speed, and achieved real-time performance on a consumer CPU, both
+  with and without FastNEWT, suggesting it is a viable basis for future
+  creative sound design tools.%
+    }
+    \field{pages}{8}
+    \field{title}{{NEURAL} {WAVESHAPING} {SYNTHESIS}}
+    \verb{file}
+    \verb Hayes et al. - NEURAL WAVESHAPING SYNTHESIS.pdf:/Users/nielswarncke/Z
+    \verb otero/storage/574ZC3GP/Hayes et al. - NEURAL WAVESHAPING SYNTHESIS.pd
+    \verb f:application/pdf
+    \endverb
+  \endentry
+
+  \entry{siren}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SV}{%
+         family={Sitzmann},
+         familyi={S\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=MJNP}{%
+         family={Martel},
+         familyi={M\bibinitperiod},
+         given={Julien N.\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+      {{hash=BAW}{%
+         family={Bergman},
+         familyi={B\bibinitperiod},
+         given={Alexander\bibnamedelima W.},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=LDB}{%
+         family={Lindell},
+         familyi={L\bibinitperiod},
+         given={David\bibnamedelima B.},
+         giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=WG}{%
+         family={Wetzstein},
+         familyi={W\bibinitperiod},
+         given={Gordon},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Computer Vision and Pattern Recognition, Computer
+  Science - Machine Learning, Electrical Engineering and Systems Science -
+  Image and Video Processing}
+    \strng{namehash}{SVMJNPBAWLDBWG1}
+    \strng{fullhash}{SVMJNPBAWLDBWG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Implicitly defined, continuous, differentiable signal representations
+  parameterized by neural networks have emerged as a powerful paradigm,
+  offering many possible benefits over conventional representations. However,
+  current network architectures for such implicit neural representations are
+  incapable of modeling signals with fine detail, and fail to represent a
+  signal's spatial and temporal derivatives, despite the fact that these are
+  essential to many physical signals defined implicitly as the solution to
+  partial differential equations. We propose to leverage periodic activation
+  functions for implicit neural representations and demonstrate that these
+  networks, dubbed sinusoidal representation networks or Sirens, are ideally
+  suited for representing complex natural signals and their derivatives. We
+  analyze Siren activation statistics to propose a principled initialization
+  scheme and demonstrate the representation of images, wavefields, video,
+  sound, and their derivatives. Further, we show how Sirens can be leveraged to
+  solve challenging boundary value problems, such as particular Eikonal
+  equations (yielding signed distance functions), the Poisson equation, and the
+  Helmholtz and wave equations. Lastly, we combine Sirens with hypernetworks to
+  learn priors over the space of Siren functions.%
+    }
+    \field{note}{arXiv: 2006.09661}
+    \field{title}{Implicit {Neural} {Representations} with {Periodic}
+  {Activation} {Functions}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2006.09661
+    \endverb
+    \verb{file}
+    \verb arXiv Fulltext PDF:/Users/p378593/Zotero/storage/9R28HYR5/Sitzmann et
+    \verb  al. - 2020 - Implicit Neural Representations with Periodic Acti.pdf:
+    \verb application/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/27TG
+    \verb T8QJ/2006.html:text/html
+    \endverb
+    \field{journaltitle}{arXiv:2006.09661 [cs, eess]}
+    \field{annotation}{%
+    Comment: Project website: https://vsitzmann.github.io/siren/ Project video:
+  https://youtu.be/Q2fLWGBeaiI%
+    }
+    \field{month}{06}
+    \field{year}{2020}
+    \field{urlday}{15}
+    \field{urlmonth}{10}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{liu_neural_2020}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=LZ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Zhijun},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CK}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Kuan},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=YK}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Kai},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {ISCA}%
+    }
+    \strng{namehash}{LZCKYK1}
+    \strng{fullhash}{LZCKYK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In this paper, we propose the neural homomorphic vocoder (NHV), a
+  source-ﬁlter model based neural vocoder framework. NHV synthesizes speech
+  by ﬁltering impulse trains and noise with linear time-varying (LTV)
+  ﬁlters. A neural network controls the LTV ﬁlters by estimating complex
+  cepstrums of time-varying impulse responses given acoustic features. The
+  proposed framework can be trained with a combination of multi-resolution STFT
+  loss and adversarial loss functions. Due to the use of DSP-based synthesis
+  methods, NHV is highly efﬁcient, fully controllable and interpretable. A
+  vocoder was built under the framework to synthesize speech given log-Mel
+  spectrograms and fundamental frequencies. While the model cost only 15 kFLOPs
+  per sample, the synthesis quality remained comparable to baseline neural
+  vocoders in both copy-synthesis and text-to-speech.%
+    }
+    \field{booktitle}{Interspeech 2020}
+    \verb{doi}
+    \verb 10.21437/Interspeech.2020-3188
+    \endverb
+    \field{pages}{240\bibrangedash 244}
+    \field{title}{Neural {Homomorphic} {Vocoder}}
+    \verb{url}
+    \verb http://www.isca-speech.org/archive/Interspeech_2020/abstracts/3188.ht
+    \verb ml
+    \endverb
+    \verb{file}
+    \verb Liu et al. - 2020 - Neural Homomorphic Vocoder.pdf:/Users/nielswarnck
+    \verb e/Zotero/storage/92EEMSU3/Liu et al. - 2020 - Neural Homomorphic Voco
+    \verb der.pdf:application/pdf
+    \endverb
+    \field{month}{10}
+    \field{year}{2020}
+    \field{urlday}{14}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{mccarthy_hooligan_2020}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MO}{%
+         family={McCarthy},
+         familyi={M\bibinitperiod},
+         given={Ollie},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=AZ}{%
+         family={Ahmed},
+         familyi={A\bibinitperiod},
+         given={Zohaib},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Sound, Electrical Engineering and Systems Science
+  - Audio and Speech Processing}
+    \strng{namehash}{MOAZ1}
+    \strng{fullhash}{MOAZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Recent developments in generative models have shown that deep learning
+  combined with traditional digital signal processing (DSP) techniques could
+  successfully generate convincing violin samples [1], that source-excitation
+  combined with WaveNet yields high-quality vocoders [2, 3] and that generative
+  adversarial network (GAN) training can improve naturalness [4, 5]. By
+  combining the ideas in these models we introduce HooliGAN, a robust vocoder
+  that has state of the art results, finetunes very well to smaller datasets
+  ({\textless}30 minutes of speechdata) and generates audio at 2.2MHz on GPU
+  and 35kHz on CPU. We also show a simple modification to Tacotron-basedmodels
+  that allows seamless integration with HooliGAN. Results from our listening
+  tests show the proposed model's ability to consistently output high-quality
+  audio with a variety of datasets, big and small. We provide samples at the
+  following demo page: https://resemble-ai.github.io/hooligan\_demo/%
+    }
+    \field{note}{arXiv: 2008.02493}
+    \field{shorttitle}{{HooliGAN}}
+    \field{title}{{HooliGAN}: {Robust}, {High} {Quality} {Neural} {Vocoding}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2008.02493
+    \endverb
+    \verb{file}
+    \verb arXiv Fulltext PDF:/Users/nielswarncke/Zotero/storage/G23MEBGD/McCart
+    \verb hy and Ahmed - 2020 - HooliGAN Robust, High Quality Neural Vocoding.p
+    \verb df:application/pdf;arXiv.org Snapshot:/Users/nielswarncke/Zotero/stor
+    \verb age/D2YUCXRP/2008.html:text/html
+    \endverb
+    \field{journaltitle}{arXiv:2008.02493 [cs, eess]}
+    \field{month}{08}
+    \field{year}{2020}
+    \field{urlday}{14}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{WaveNet}{article}{}
+    \name{author}{9}{}{%
+      {{hash=OAvd}{%
+         family={Oord},
+         familyi={O\bibinitperiod},
+         given={Aaron van\bibnamedelima den},
+         giveni={A\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim
+  d\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Dieleman},
+         familyi={D\bibinitperiod},
+         given={Sander},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zen},
+         familyi={Z\bibinitperiod},
+         given={Heiga},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Simonyan},
+         familyi={S\bibinitperiod},
+         given={Karen},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=VO}{%
+         family={Vinyals},
+         familyi={V\bibinitperiod},
+         given={Oriol},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Graves},
+         familyi={G\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kalchbrenner},
+         familyi={K\bibinitperiod},
+         given={Nal},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Senior},
+         familyi={S\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kavukcuoglu},
+         familyi={K\bibinitperiod},
+         given={Koray},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Machine Learning, Computer Science - Sound}
+    \strng{namehash}{OAvdDSZHSKVOGAKNSAKK1}
+    \strng{fullhash}{OAvdDSZHSKVOGAKNSAKK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    This paper introduces WaveNet, a deep neural network for generating raw
+  audio waveforms. The model is fully probabilistic and autoregressive, with
+  the predictive distribution for each audio sample conditioned on all previous
+  ones; nonetheless we show that it can be efficiently trained on data with
+  tens of thousands of samples per second of audio. When applied to
+  text-to-speech, it yields state-of-the-art performance, with human listeners
+  rating it as significantly more natural sounding than the best parametric and
+  concatenative systems for both English and Mandarin. A single WaveNet can
+  capture the characteristics of many different speakers with equal fidelity,
+  and can switch between them by conditioning on the speaker identity. When
+  trained to model music, we find that it generates novel and often highly
+  realistic musical fragments. We also show that it can be employed as a
+  discriminative model, returning promising results for phoneme recognition.%
+    }
+    \field{note}{arXiv: 1609.03499}
+    \field{shorttitle}{{WaveNet}}
+    \field{title}{{WaveNet}: {A} {Generative} {Model} for {Raw} {Audio}}
+    \verb{url}
+    \verb http://arxiv.org/abs/1609.03499
+    \endverb
+    \verb{file}
+    \verb arXiv Fulltext PDF:/Users/p378593/Zotero/storage/N239NY9B/Oord et al.
+    \verb  - 2016 - WaveNet A Generative Model for Raw Audio.pdf:application/pd
+    \verb f;arXiv.org Snapshot:/Users/p378593/Zotero/storage/QSN7ZY4V/1609.html
+    \verb :text/html
+    \endverb
+    \field{journaltitle}{arXiv:1609.03499 [cs]}
+    \field{month}{09}
+    \field{year}{2016}
+    \field{urlday}{15}
+    \field{urlmonth}{10}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{kalchbrenner_efficient_2018}{inproceedings}{}
+    \name{author}{10}{}{%
+      {{hash=KN}{%
+         family={Kalchbrenner},
+         familyi={K\bibinitperiod},
+         given={Nal},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=EE}{%
+         family={Elsen},
+         familyi={E\bibinitperiod},
+         given={Erich},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Simonyan},
+         familyi={S\bibinitperiod},
+         given={Karen},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Noury},
+         familyi={N\bibinitperiod},
+         given={Seb},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CN}{%
+         family={Casagrande},
+         familyi={C\bibinitperiod},
+         given={Norman},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Lockhart},
+         familyi={L\bibinitperiod},
+         given={Edward},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Stimberg},
+         familyi={S\bibinitperiod},
+         given={Florian},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=OA}{%
+         family={Oord},
+         familyi={O\bibinitperiod},
+         given={Aaron},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Dieleman},
+         familyi={D\bibinitperiod},
+         given={Sander},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kavukcuoglu},
+         familyi={K\bibinitperiod},
+         given={Koray},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {PMLR}%
+    }
+    \strng{namehash}{KNEESKNSCNLESFOADSKK1}
+    \strng{fullhash}{KNEESKNSCNLESFOADSKK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{International {Conference} on {Machine} {Learning}}
+    \field{note}{ISSN: 2640-3498}
+    \field{pages}{2410\bibrangedash 2419}
+    \field{title}{Efficient {Neural} {Audio} {Synthesis}}
+    \verb{url}
+    \verb http://proceedings.mlr.press/v80/kalchbrenner18a.html
+    \endverb
+    \verb{file}
+    \verb Full Text PDF:/Users/nielswarncke/Zotero/storage/8HZLXI7F/Kalchbrenne
+    \verb r et al. - 2018 - Efficient Neural Audio Synthesis.pdf:application/pd
+    \verb f
+    \endverb
+    \field{month}{07}
+    \field{year}{2018}
+    \field{urlday}{23}
+    \field{urlmonth}{07}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{oord_parallel_2017}{article}{}
+    \name{author}{22}{}{%
+      {{hash=OAvd}{%
+         family={Oord},
+         familyi={O\bibinitperiod},
+         given={Aaron van\bibnamedelima den},
+         giveni={A\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim
+  d\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Yazhe},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=BI}{%
+         family={Babuschkin},
+         familyi={B\bibinitperiod},
+         given={Igor},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Simonyan},
+         familyi={S\bibinitperiod},
+         given={Karen},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=VO}{%
+         family={Vinyals},
+         familyi={V\bibinitperiod},
+         given={Oriol},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kavukcuoglu},
+         familyi={K\bibinitperiod},
+         given={Koray},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=DGvd}{%
+         family={Driessche},
+         familyi={D\bibinitperiod},
+         given={George van\bibnamedelima den},
+         giveni={G\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim
+  d\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Lockhart},
+         familyi={L\bibinitperiod},
+         given={Edward},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=CLC}{%
+         family={Cobo},
+         familyi={C\bibinitperiod},
+         given={Luis\bibnamedelima C.},
+         giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Stimberg},
+         familyi={S\bibinitperiod},
+         given={Florian},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=CN}{%
+         family={Casagrande},
+         familyi={C\bibinitperiod},
+         given={Norman},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Grewe},
+         familyi={G\bibinitperiod},
+         given={Dominik},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Noury},
+         familyi={N\bibinitperiod},
+         given={Seb},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Dieleman},
+         familyi={D\bibinitperiod},
+         given={Sander},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=EE}{%
+         family={Elsen},
+         familyi={E\bibinitperiod},
+         given={Erich},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kalchbrenner},
+         familyi={K\bibinitperiod},
+         given={Nal},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zen},
+         familyi={Z\bibinitperiod},
+         given={Heiga},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Graves},
+         familyi={G\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={King},
+         familyi={K\bibinitperiod},
+         given={Helen},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WT}{%
+         family={Walters},
+         familyi={W\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Belov},
+         familyi={B\bibinitperiod},
+         given={Dan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hassabis},
+         familyi={H\bibinitperiod},
+         given={Demis},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Machine Learning}
+    \strng{namehash}{OAvdLYBISKVOKKDGvdLECLCSFCNGDNSDSEEKNZHGAKHWTBDHD1}
+    \strng{fullhash}{OAvdLYBISKVOKKDGvdLECLCSFCNGDNSDSEEKNZHGAKHWTBDHD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    The recently-developed WaveNet architecture is the current state of the art
+  in realistic speech synthesis, consistently rated as more natural sounding
+  for many different languages than any previous system. However, because
+  WaveNet relies on sequential generation of one audio sample at a time, it is
+  poorly suited to today's massively parallel computers, and therefore hard to
+  deploy in a real-time production setting. This paper introduces Probability
+  Density Distillation, a new method for training a parallel feed-forward
+  network from a trained WaveNet with no significant difference in quality. The
+  resulting system is capable of generating high-fidelity speech samples at
+  more than 20 times faster than real-time, and is deployed online by Google
+  Assistant, including serving multiple English and Japanese voices.%
+    }
+    \field{note}{arXiv: 1711.10433}
+    \field{shorttitle}{Parallel {WaveNet}}
+    \field{title}{Parallel {WaveNet}: {Fast} {High}-{Fidelity} {Speech}
+  {Synthesis}}
+    \verb{url}
+    \verb http://arxiv.org/abs/1711.10433
+    \endverb
+    \verb{file}
+    \verb arXiv Fulltext PDF:/Users/nielswarncke/Zotero/storage/TBEMZD42/Oord e
+    \verb t al. - 2017 - Parallel WaveNet Fast High-Fidelity Speech Synthe.pdf:
+    \verb application/pdf;arXiv.org Snapshot:/Users/nielswarncke/Zotero/storage
+    \verb /NZTGHPED/1711.html:text/html
+    \endverb
+    \field{journaltitle}{arXiv:1711.10433 [cs]}
+    \field{month}{11}
+    \field{year}{2017}
+    \field{urlday}{23}
+    \field{urlmonth}{07}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{vqvae}{article}{}
+    \name{author}{3}{}{%
+      {{hash=OAvd}{%
+         family={Oord},
+         familyi={O\bibinitperiod},
+         given={Aaron van\bibnamedelima den},
+         giveni={A\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim
+  d\bibinitperiod},
+      }}%
+      {{hash=VO}{%
+         family={Vinyals},
+         familyi={V\bibinitperiod},
+         given={Oriol},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kavukcuoglu},
+         familyi={K\bibinitperiod},
+         given={Koray},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Machine Learning}
+    \strng{namehash}{OAvdVOKK1}
+    \strng{fullhash}{OAvdVOKK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Learning useful representations without supervision remains a key challenge
+  in machine learning. In this paper, we propose a simple yet powerful
+  generative model that learns such discrete representations. Our model, the
+  Vector Quantised-Variational AutoEncoder (VQ-VAE), differs from VAEs in two
+  key ways: the encoder network outputs discrete, rather than continuous,
+  codes; and the prior is learnt rather than static. In order to learn a
+  discrete latent representation, we incorporate ideas from vector quantisation
+  (VQ). Using the VQ method allows the model to circumvent issues of "posterior
+  collapse" -- where the latents are ignored when they are paired with a
+  powerful autoregressive decoder -- typically observed in the VAE framework.
+  Pairing these representations with an autoregressive prior, the model can
+  generate high quality images, videos, and speech as well as doing high
+  quality speaker conversion and unsupervised learning of phonemes, providing
+  further evidence of the utility of the learnt representations.%
+    }
+    \field{note}{arXiv: 1711.00937}
+    \field{title}{Neural {Discrete} {Representation} {Learning}}
+    \verb{url}
+    \verb http://arxiv.org/abs/1711.00937
+    \endverb
+    \verb{file}
+    \verb arXiv Fulltext PDF:/Users/p378593/Zotero/storage/2RGQTTNU/Oord et al.
+    \verb  - 2018 - Neural Discrete Representation Learning.pdf:application/pdf
+    \verb ;arXiv.org Snapshot:/Users/p378593/Zotero/storage/56XPNY56/1711.html:
+    \verb text/html
+    \endverb
+    \field{journaltitle}{arXiv:1711.00937 [cs]}
+    \field{month}{05}
+    \field{year}{2018}
+    \field{urlday}{16}
+    \field{urlmonth}{10}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{vqvae2}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RA}{%
+         family={Razavi},
+         familyi={R\bibinitperiod},
+         given={Ali},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=OAvd}{%
+         family={Oord},
+         familyi={O\bibinitperiod},
+         given={Aaron van\bibnamedelima den},
+         giveni={A\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim
+  d\bibinitperiod},
+      }}%
+      {{hash=VO}{%
+         family={Vinyals},
+         familyi={V\bibinitperiod},
+         given={Oriol},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Computer Vision and Pattern Recognition, Computer
+  Science - Machine Learning, Statistics - Machine Learning}
+    \strng{namehash}{RAOAvdVO1}
+    \strng{fullhash}{RAOAvdVO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We explore the use of Vector Quantized Variational AutoEncoder (VQ-VAE)
+  models for large scale image generation. To this end, we scale and enhance
+  the autoregressive priors used in VQ-VAE to generate synthetic samples of
+  much higher coherence and fidelity than possible before. We use simple
+  feed-forward encoder and decoder networks, making our model an attractive
+  candidate for applications where the encoding and/or decoding speed is
+  critical. Additionally, VQ-VAE requires sampling an autoregressive model only
+  in the compressed latent space, which is an order of magnitude faster than
+  sampling in the pixel space, especially for large images. We demonstrate that
+  a multi-scale hierarchical organization of VQ-VAE, augmented with powerful
+  priors over the latent codes, is able to generate samples with quality that
+  rivals that of state of the art Generative Adversarial Networks on
+  multifaceted datasets such as ImageNet, while not suffering from GAN's known
+  shortcomings such as mode collapse and lack of diversity.%
+    }
+    \field{note}{arXiv: 1906.00446}
+    \field{title}{Generating {Diverse} {High}-{Fidelity} {Images} with
+  {VQ}-{VAE}-2}
+    \verb{url}
+    \verb http://arxiv.org/abs/1906.00446
+    \endverb
+    \verb{file}
+    \verb arXiv Fulltext PDF:/Users/p378593/Zotero/storage/RVD6AQZQ/Razavi et a
+    \verb l. - 2019 - Generating Diverse High-Fidelity Images with VQ-VA.pdf:ap
+    \verb plication/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/FF9RIK
+    \verb 7J/1906.html:text/html
+    \endverb
+    \field{journaltitle}{arXiv:1906.00446 [cs, stat]}
+    \field{month}{06}
+    \field{year}{2019}
+    \field{urlday}{15}
+    \field{urlmonth}{10}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{dhariwal_diffusion_2021}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DP}{%
+         family={Dhariwal},
+         familyi={D\bibinitperiod},
+         given={Prafulla},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=NA}{%
+         family={Nichol},
+         familyi={N\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Computer Vision and Pattern Recognition,
+  Statistics - Machine Learning, Computer Science - Machine Learning, Computer
+  Science - Artificial Intelligence}
+    \strng{namehash}{DPNA1}
+    \strng{fullhash}{DPNA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We show that diffusion models can achieve image sample quality superior to
+  the current state-of-the-art generative models. We achieve this on
+  unconditional image synthesis by finding a better architecture through a
+  series of ablations. For conditional image synthesis, we further improve
+  sample quality with classifier guidance: a simple, compute-efficient method
+  for trading off diversity for fidelity using gradients from a classifier. We
+  achieve an FID of 2.97 on ImageNet 128\${\textbackslash}times\$128, 4.59 on
+  ImageNet 256\${\textbackslash}times\$256, and 7.72 on ImageNet
+  512\${\textbackslash}times\$512, and we match BigGAN-deep even with as few as
+  25 forward passes per sample, all while maintaining better coverage of the
+  distribution. Finally, we find that classifier guidance combines well with
+  upsampling diffusion models, further improving FID to 3.94 on ImageNet
+  256\${\textbackslash}times\$256 and 3.85 on ImageNet
+  512\${\textbackslash}times\$512. We release our code at
+  https://github.com/openai/guided-diffusion%
+    }
+    \field{note}{arXiv: 2105.05233}
+    \field{title}{Diffusion {Models} {Beat} {GANs} on {Image} {Synthesis}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2105.05233
+    \endverb
+    \verb{file}
+    \verb arXiv Fulltext PDF:/Users/nielswarncke/Zotero/storage/XZK7FW54/Dhariw
+    \verb al and Nichol - 2021 - Diffusion Models Beat GANs on Image Synthesis.
+    \verb pdf:application/pdf;arXiv.org Snapshot:/Users/nielswarncke/Zotero/sto
+    \verb rage/7Y5DA94D/2105.html:text/html
+    \endverb
+    \field{journaltitle}{arXiv:2105.05233 [cs, stat]}
+    \field{annotation}{%
+    Comment: Added compute requirements, ImageNet
+  256\${\textbackslash}times\$256 upsampling FID and samples, DDIM guided
+  sampler, fixed typos%
+    }
+    \field{month}{06}
+    \field{year}{2021}
+    \field{urlday}{13}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{kong_diffwave_2021}{article}{}
+    \name{author}{5}{}{%
+      {{hash=KZ}{%
+         family={Kong},
+         familyi={K\bibinitperiod},
+         given={Zhifeng},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=PW}{%
+         family={Ping},
+         familyi={P\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Jiaji},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZK}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Kexin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Catanzaro},
+         familyi={C\bibinitperiod},
+         given={Bryan},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Sound, Electrical Engineering and Systems Science
+  - Audio and Speech Processing, Statistics - Machine Learning, Computer
+  Science - Computation and Language, Computer Science - Machine Learning}
+    \strng{namehash}{KZPWHJZKCB1}
+    \strng{fullhash}{KZPWHJZKCB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    In this work, we propose DiffWave, a versatile diffusion probabilistic
+  model for conditional and unconditional waveform generation. The model is
+  non-autoregressive, and converts the white noise signal into structured
+  waveform through a Markov chain with a constant number of steps at synthesis.
+  It is efficiently trained by optimizing a variant of variational bound on the
+  data likelihood. DiffWave produces high-fidelity audios in different waveform
+  generation tasks, including neural vocoding conditioned on mel spectrogram,
+  class-conditional generation, and unconditional generation. We demonstrate
+  that DiffWave matches a strong WaveNet vocoder in terms of speech quality
+  (MOS: 4.44 versus 4.43), while synthesizing orders of magnitude faster. In
+  particular, it significantly outperforms autoregressive and GAN-based
+  waveform models in the challenging unconditional generation task in terms of
+  audio quality and sample diversity from various automatic and human
+  evaluations.%
+    }
+    \field{note}{arXiv: 2009.09761}
+    \field{shorttitle}{{DiffWave}}
+    \field{title}{{DiffWave}: {A} {Versatile} {Diffusion} {Model} for {Audio}
+  {Synthesis}}
+    \verb{url}
+    \verb http://arxiv.org/abs/2009.09761
+    \endverb
+    \verb{file}
+    \verb arXiv Fulltext PDF:/Users/nielswarncke/Zotero/storage/CY8ADAY2/Kong e
+    \verb t al. - 2021 - DiffWave A Versatile Diffusion Model for Audio Sy.pdf:
+    \verb application/pdf;arXiv.org Snapshot:/Users/nielswarncke/Zotero/storage
+    \verb /FEJG8G8Y/2009.html:text/html
+    \endverb
+    \field{journaltitle}{arXiv:2009.09761 [cs, eess, stat]}
+    \field{annotation}{%
+    Comment: ICLR 2021 (oral)%
+    }
+    \field{month}{03}
+    \field{year}{2021}
+    \field{urlday}{23}
+    \field{urlmonth}{07}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{engel_gansynth_2019}{article}{}
+    \name{author}{6}{}{%
+      {{hash=EJ}{%
+         family={Engel},
+         familyi={E\bibinitperiod},
+         given={Jesse},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AKK}{%
+         family={Agrawal},
+         familyi={A\bibinitperiod},
+         given={Kumar\bibnamedelima Krishna},
+         giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Shuo},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GI}{%
+         family={Gulrajani},
+         familyi={G\bibinitperiod},
+         given={Ishaan},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Donahue},
+         familyi={D\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Roberts},
+         familyi={R\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Sound, Electrical Engineering and Systems Science
+  - Audio and Speech Processing, Statistics - Machine Learning, Computer
+  Science - Machine Learning}
+    \strng{namehash}{EJAKKCSGIDCRA1}
+    \strng{fullhash}{EJAKKCSGIDCRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Efficient audio synthesis is an inherently difficult machine learning task,
+  as human perception is sensitive to both global structure and fine-scale
+  waveform coherence. Autoregressive models, such as WaveNet, model local
+  structure at the expense of global latent structure and slow iterative
+  sampling, while Generative Adversarial Networks (GANs), have global latent
+  conditioning and efficient parallel sampling, but struggle to generate
+  locally-coherent audio waveforms. Herein, we demonstrate that GANs can in
+  fact generate high-fidelity and locally-coherent audio by modeling log
+  magnitudes and instantaneous frequencies with sufficient frequency resolution
+  in the spectral domain. Through extensive empirical investigations on the
+  NSynth dataset, we demonstrate that GANs are able to outperform strong
+  WaveNet baselines on automated and human evaluation metrics, and efficiently
+  generate audio several orders of magnitude faster than their autoregressive
+  counterparts.%
+    }
+    \field{note}{arXiv: 1902.08710}
+    \field{shorttitle}{{GANSynth}}
+    \field{title}{{GANSynth}: {Adversarial} {Neural} {Audio} {Synthesis}}
+    \verb{url}
+    \verb http://arxiv.org/abs/1902.08710
+    \endverb
+    \verb{file}
+    \verb arXiv Fulltext PDF:/Users/nielswarncke/Zotero/storage/JP9VV6K2/Engel
+    \verb et al. - 2019 - GANSynth Adversarial Neural Audio Synthesis.pdf:appli
+    \verb cation/pdf;arXiv.org Snapshot:/Users/nielswarncke/Zotero/storage/S9X9
+    \verb 9PSH/1902.html:text/html
+    \endverb
+    \field{journaltitle}{arXiv:1902.08710 [cs, eess, stat]}
+    \field{annotation}{%
+    Comment: Colab Notebook: http://goo.gl/magenta/gansynth-demo%
+    }
+    \field{month}{04}
+    \field{year}{2019}
+    \field{urlday}{23}
+    \field{urlmonth}{07}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{chung_empirical_2014}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CJ}{%
+         family={Chung},
+         familyi={C\bibinitperiod},
+         given={Junyoung},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Gulcehre},
+         familyi={G\bibinitperiod},
+         given={Caglar},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CK}{%
+         family={Cho},
+         familyi={C\bibinitperiod},
+         given={KyungHyun},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BY}{%
+         family={Bengio},
+         familyi={B\bibinitperiod},
+         given={Yoshua},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Machine Learning, Computer Science - Neural and
+  Evolutionary Computing}
+    \strng{namehash}{CJGCCKBY1}
+    \strng{fullhash}{CJGCCKBY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In this paper we compare different types of recurrent units in recurrent
+  neural networks (RNNs). Especially, we focus on more sophisticated units that
+  implement a gating mechanism, such as a long short-term memory (LSTM) unit
+  and a recently proposed gated recurrent unit (GRU). We evaluate these
+  recurrent units on the tasks of polyphonic music modeling and speech signal
+  modeling. Our experiments revealed that these advanced recurrent units are
+  indeed better than more traditional recurrent units such as tanh units. Also,
+  we found GRU to be comparable to LSTM.%
+    }
+    \field{note}{arXiv: 1412.3555}
+    \field{title}{Empirical {Evaluation} of {Gated} {Recurrent} {Neural}
+  {Networks} on {Sequence} {Modeling}}
+    \verb{url}
+    \verb http://arxiv.org/abs/1412.3555
+    \endverb
+    \verb{file}
+    \verb arXiv Fulltext PDF:/Users/nielswarncke/Zotero/storage/ELWJ6CCG/Chung
+    \verb et al. - 2014 - Empirical Evaluation of Gated Recurrent Neural Net.pd
+    \verb f:application/pdf;arXiv.org Snapshot:/Users/nielswarncke/Zotero/stora
+    \verb ge/TFCIXCJQ/1412.html:text/html
+    \endverb
+    \field{journaltitle}{arXiv:1412.3555 [cs]}
+    \field{annotation}{%
+    Comment: Presented in NIPS 2014 Deep Learning and Representation Learning
+  Workshop%
+    }
+    \field{month}{12}
+    \field{year}{2014}
+    \field{urlday}{23}
+    \field{urlmonth}{07}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{idmt_bass}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AJ}{%
+         family={Abeßer},
+         familyi={A\bibinitperiod},
+         given={Jakob},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Dittmar},
+         familyi={D\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kramer},
+         familyi={K\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Schuller},
+         familyi={S\bibinitperiod},
+         given={Gerald},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AJDCKPSG1}
+    \strng{fullhash}{AJDCKPSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{IDMT-SMT-Bass-Single-Track}
+    \verb{url}
+    \verb https://www.idmt.fraunhofer.de/en/business_units/m2d/smt/bass_lines.h
+    \verb tml
+    \endverb
+    \field{journaltitle}{16th International Conference on Digital Audio Effects
+  (DAFx)}
+    \field{year}{2013}
+  \endentry
+
+  \entry{idmt_guitar}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KC}{%
+         family={Kehling},
+         familyi={K\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Abeßer},
+         familyi={A\bibinitperiod},
+         given={Jakob},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Dittmar},
+         familyi={D\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Schuller},
+         familyi={S\bibinitperiod},
+         given={Gerald},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KCAJDCSG1}
+    \strng{fullhash}{KCAJDCSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Automatic Tablature Transcription of Electric Guitar
+  Recordings by Estimation of Score- and Instrument-related Parameters}
+    \verb{url}
+    \verb https://www.idmt.fraunhofer.de/en/business_units/m2d/smt/guitar.html
+    \endverb
+    \field{journaltitle}{Proceedings of the 17th International Conference on
+  Digital Audio Effects (DAFx, 2014)}
+    \field{year}{2014}
+  \endentry
+
+  \entry{idmt_drum}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DC}{%
+         family={Dittmar},
+         familyi={D\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Gärtner},
+         familyi={G\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DCGD1}
+    \strng{fullhash}{DCGD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{IDMT-SMT-Drums}
+    \verb{url}
+    \verb https://www.idmt.fraunhofer.de/en/business_units/m2d/smt/drums.html
+    \endverb
+    \field{journaltitle}{Proceedings of the 17th International Conference on
+  Digital Audio Effects (DAFx, 2014)}
+    \field{year}{2014}
+  \endentry
+
+  \entry{li_creating_2019}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LB}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Bochen},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Xinzhao},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=DK}{%
+         family={Dinesh},
+         familyi={D\bibinitperiod},
+         given={Karthik},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=DZ}{%
+         family={Duan},
+         familyi={D\bibinitperiod},
+         given={Zhiyao},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Sharma},
+         familyi={S\bibinitperiod},
+         given={Gaurav},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{LBLXDKDZSG1}
+    \strng{fullhash}{LBLXDKDZSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    We introduce a dataset for facilitating audio-visual analysis of music
+  performances. The dataset comprises 44 simple multi-instrument classical
+  music pieces assembled from coordinated but separately recorded performances
+  of individual tracks. For each piece, we provide the musical score in MIDI
+  format, the audio recordings of the individual tracks, the audio and video
+  recording of the assembled mixture, and ground-truth annotation ﬁles
+  including frame-level and note-level transcriptions. We describe our
+  methodology for the creation of the dataset, particularly highlighting our
+  approaches for addressing the challenges involved in maintaining
+  synchronization and expressiveness. We demonstrate the high quality of
+  synchronization achieved with our proposed approach by comparing the dataset
+  with existing widely-used music audio datasets.%
+    }
+    \verb{doi}
+    \verb 10.1109/TMM.2018.2856090
+    \endverb
+    \field{issn}{1520-9210, 1941-0077}
+    \field{number}{2}
+    \field{pages}{522\bibrangedash 535}
+    \field{shorttitle}{Creating a {Multitrack} {Classical} {Music}
+  {Performance} {Dataset} for {Multimodal} {Music} {Analysis}}
+    \field{title}{Creating a {Multitrack} {Classical} {Music} {Performance}
+  {Dataset} for {Multimodal} {Music} {Analysis}: {Challenges}, {Insights}, and
+  {Applications}}
+    \verb{url}
+    \verb https://ieeexplore.ieee.org/document/8411155/
+    \endverb
+    \field{volume}{21}
+    \verb{file}
+    \verb Li et al. - 2019 - Creating a Multitrack Classical Music Performance
+    \verb .pdf:/Users/nielswarncke/Zotero/storage/YURZZNEW/Li et al. - 2019 - C
+    \verb reating a Multitrack Classical Music Performance .pdf:application/pdf
+    \endverb
+    \field{journaltitle}{IEEE Transactions on Multimedia}
+    \field{month}{02}
+    \field{year}{2019}
+    \field{urlday}{16}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{bert}{article}{}
+    \name{author}{4}{}{%
+      {{hash=DJ}{%
+         family={Devlin},
+         familyi={D\bibinitperiod},
+         given={Jacob},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CMW}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Ming-Wei},
+         giveni={M\bibinithyphendelim W\bibinitperiod},
+      }}%
+      {{hash=LK}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Kenton},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Toutanova},
+         familyi={T\bibinitperiod},
+         given={Kristina},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Computation and Language}
+    \strng{namehash}{DJCMWLKTK1}
+    \strng{fullhash}{DJCMWLKTK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    We introduce a new language representation model called BERT, which stands
+  for Bidirectional Encoder Representations from Transformers. Unlike recent
+  language representation models, BERT is designed to pre-train deep
+  bidirectional representations from unlabeled text by jointly conditioning on
+  both left and right context in all layers. As a result, the pre-trained BERT
+  model can be fine-tuned with just one additional output layer to create
+  state-of-the-art models for a wide range of tasks, such as question answering
+  and language inference, without substantial task-specific architecture
+  modifications. BERT is conceptually simple and empirically powerful. It
+  obtains new state-of-the-art results on eleven natural language processing
+  tasks, including pushing the GLUE score to 80.5\% (7.7\% point absolute
+  improvement), MultiNLI accuracy to 86.7\% (4.6\% absolute improvement), SQuAD
+  v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and
+  SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).%
+    }
+    \field{note}{arXiv: 1810.04805}
+    \field{shorttitle}{{BERT}}
+    \field{title}{{BERT}: {Pre}-training of {Deep} {Bidirectional}
+  {Transformers} for {Language} {Understanding}}
+    \verb{url}
+    \verb http://arxiv.org/abs/1810.04805
+    \endverb
+    \verb{file}
+    \verb arXiv Fulltext PDF:/Users/p378593/Zotero/storage/JI5S9KZP/Devlin et a
+    \verb l. - 2019 - BERT Pre-training of Deep Bidirectional Transform.pdf:app
+    \verb lication/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/KJHJC9A
+    \verb 4/1810.html:text/html
+    \endverb
+    \field{journaltitle}{arXiv:1810.04805 [cs]}
+    \field{month}{05}
+    \field{year}{2019}
+    \field{urlday}{20}
+    \field{urlmonth}{10}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{music-transformer}{article}{}
+    \name{author}{10}{}{%
+      {{hash=HCZA}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Cheng-Zhi\bibnamedelima Anna},
+         giveni={C\bibinithyphendelim Z\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+      {{hash=VA}{%
+         family={Vaswani},
+         familyi={V\bibinitperiod},
+         given={Ashish},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=UJ}{%
+         family={Uszkoreit},
+         familyi={U\bibinitperiod},
+         given={Jakob},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Shazeer},
+         familyi={S\bibinitperiod},
+         given={Noam},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Simon},
+         familyi={S\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=HC}{%
+         family={Hawthorne},
+         familyi={H\bibinitperiod},
+         given={Curtis},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DAM}{%
+         family={Dai},
+         familyi={D\bibinitperiod},
+         given={Andrew\bibnamedelima M.},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HMD}{%
+         family={Hoffman},
+         familyi={H\bibinitperiod},
+         given={Matthew\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Dinculescu},
+         familyi={D\bibinitperiod},
+         given={Monica},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ED}{%
+         family={Eck},
+         familyi={E\bibinitperiod},
+         given={Douglas},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Machine Learning, Statistics - Machine Learning,
+  Computer Science - Sound, Electrical Engineering and Systems Science - Audio
+  and Speech Processing}
+    \strng{namehash}{HCZAVAUJSNSIHCDAMHMDDMED1}
+    \strng{fullhash}{HCZAVAUJSNSIHCDAMHMDDMED1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Music relies heavily on repetition to build structure and meaning.
+  Self-reference occurs on multiple timescales, from motifs to phrases to
+  reusing of entire sections of music, such as in pieces with ABA structure.
+  The Transformer (Vaswani et al., 2017), a sequence model based on
+  self-attention, has achieved compelling results in many generation tasks that
+  require maintaining long-range coherence. This suggests that self-attention
+  might also be well-suited to modeling music. In musical composition and
+  performance, however, relative timing is critically important. Existing
+  approaches for representing relative positional information in the
+  Transformer modulate attention based on pairwise distance (Shaw et al.,
+  2018). This is impractical for long sequences such as musical compositions
+  since their memory complexity for intermediate relative information is
+  quadratic in the sequence length. We propose an algorithm that reduces their
+  intermediate memory requirement to linear in the sequence length. This
+  enables us to demonstrate that a Transformer with our modified relative
+  attention mechanism can generate minute-long compositions (thousands of
+  steps, four times the length modeled in Oore et al., 2018) with compelling
+  structure, generate continuations that coherently elaborate on a given motif,
+  and in a seq2seq setup generate accompaniments conditioned on melodies. We
+  evaluate the Transformer with our relative attention mechanism on two
+  datasets, JSB Chorales and Piano-e-Competition, and obtain state-of-the-art
+  results on the latter.%
+    }
+    \field{note}{arXiv: 1809.04281}
+    \field{title}{Music {Transformer}}
+    \verb{url}
+    \verb http://arxiv.org/abs/1809.04281
+    \endverb
+    \verb{file}
+    \verb arXiv Fulltext PDF:/Users/p378593/Zotero/storage/GGUMK73E/Huang et al
+    \verb . - 2018 - Music Transformer.pdf:application/pdf;arXiv.org Snapshot:/
+    \verb Users/p378593/Zotero/storage/F928GVVV/1809.html:text/html
+    \endverb
+    \field{journaltitle}{arXiv:1809.04281 [cs, eess, stat]}
+    \field{annotation}{%
+    Comment: Improved skewing section and accompanying figures. Previous titles
+  are "An Improved Relative Self-Attention Mechanism for Transformer with
+  Application to Music Generation" and "Music Transformer"%
+    }
+    \field{month}{12}
+    \field{year}{2018}
+    \field{urlday}{26}
+    \field{urlmonth}{10}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{turian_im_nodate}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TJ}{%
+         family={Turian},
+         familyi={T\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Henry},
+         familyi={H\bibinitperiod},
+         given={Max},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{TJHM1}
+    \strng{fullhash}{TJHM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Growing research demonstrates that synthetic failure modes imply poor
+  generalization. We compare commonly used audio-to-audio losses on a synthetic
+  benchmark, measuring the pitch distance between two stationary sinusoids. The
+  results are surprising: many have poor sense of pitch direction. These
+  shortcomings are exposed using simple rank assumptions. Our task is trivial
+  for humans but difﬁcult for these audio distances, suggesting signiﬁcant
+  progress can be made in self-supervised audio learning by improving current
+  losses.%
+    }
+    \field{pages}{16}
+    \field{title}{I’m {Sorry} for {Your} {Loss}: {Spectrally}-{Based} {Audio}
+  {Distances} {Are} {Bad} at {Pitch}}
+    \verb{file}
+    \verb Turian and Henry - I’m Sorry for Your Loss Spectrally-Based Audio D
+    \verb i.pdf:/Users/nielswarncke/Zotero/storage/56C4MCJV/Turian and Henry -
+    \verb I’m Sorry for Your Loss Spectrally-Based Audio Di.pdf:application/p
+    \verb df
+    \endverb
+  \endentry
+
+  \entry{performance-rnn-2017}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=SI}{%
+         family={Simon},
+         familyi={S\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=OS}{%
+         family={Oore},
+         familyi={O\bibinitperiod},
+         given={Sageev},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SIOS1}
+    \strng{fullhash}{SIOS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://magenta.tensorflow.org/performance-rnn}}
+    \field{title}{Performance RNN: Generating Music with Expressive Timing and
+  Dynamics}
+    \field{type}{Blog}
+    \field{journaltitle}{Magenta Blog}
+    \field{year}{2017}
+  \endentry
+
+  \entry{roberts_hierarchical_2019}{article}{}
+    \name{author}{5}{}{%
+      {{hash=RA}{%
+         family={Roberts},
+         familyi={R\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Engel},
+         familyi={E\bibinitperiod},
+         given={Jesse},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Raffel},
+         familyi={R\bibinitperiod},
+         given={Colin},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HC}{%
+         family={Hawthorne},
+         familyi={H\bibinitperiod},
+         given={Curtis},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ED}{%
+         family={Eck},
+         familyi={E\bibinitperiod},
+         given={Douglas},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Machine Learning, Computer Science - Sound,
+  Electrical Engineering and Systems Science - Audio and Speech Processing,
+  Statistics - Machine Learning}
+    \strng{namehash}{RAEJRCHCED1}
+    \strng{fullhash}{RAEJRCHCED1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The Variational Autoencoder (VAE) has proven to be an effective model for
+  producing semantically meaningful latent representations for natural data.
+  However, it has thus far seen limited application to sequential data, and, as
+  we demonstrate, existing recurrent VAE models have difficulty modeling
+  sequences with long-term structure. To address this issue, we propose the use
+  of a hierarchical decoder, which first outputs embeddings for subsequences of
+  the input and then uses these embeddings to generate each subsequence
+  independently. This structure encourages the model to utilize its latent
+  code, thereby avoiding the "posterior collapse" problem, which remains an
+  issue for recurrent VAEs. We apply this architecture to modeling sequences of
+  musical notes and find that it exhibits dramatically better sampling,
+  interpolation, and reconstruction performance than a "flat" baseline model.
+  An implementation of our "MusicVAE" is available online at
+  http://g.co/magenta/musicvae-code.%
+    }
+    \field{note}{arXiv: 1803.05428}
+    \field{title}{A {Hierarchical} {Latent} {Vector} {Model} for {Learning}
+  {Long}-{Term} {Structure} in {Music}}
+    \verb{url}
+    \verb http://arxiv.org/abs/1803.05428
+    \endverb
+    \verb{file}
+    \verb arXiv Fulltext PDF:/Users/nielswarncke/Zotero/storage/WFGYCJD8/Robert
+    \verb s et al. - 2019 - A Hierarchical Latent Vector Model for Learning Lo.
+    \verb pdf:application/pdf;arXiv.org Snapshot:/Users/nielswarncke/Zotero/sto
+    \verb rage/4ZIUISRB/1803.html:text/html
+    \endverb
+    \field{journaltitle}{arXiv:1803.05428 [cs, eess, stat]}
+    \field{annotation}{%
+    Comment: ICML Camera Ready Version (w/ fixed typos)%
+    }
+    \field{month}{11}
+    \field{year}{2019}
+    \field{urlday}{03}
+    \field{urlmonth}{09}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{kim_crepe_2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KJW}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Jong\bibnamedelima Wook},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Salamon},
+         familyi={S\bibinitperiod},
+         given={Justin},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BJP}{%
+         family={Bello},
+         familyi={B\bibinitperiod},
+         given={Juan\bibnamedelima Pablo},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Machine Learning, Computer Science - Sound,
+  Electrical Engineering and Systems Science - Audio and Speech Processing,
+  Statistics - Machine Learning}
+    \strng{namehash}{KJWSJLPBJP1}
+    \strng{fullhash}{KJWSJLPBJP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    The task of estimating the fundamental frequency of a monophonic sound
+  recording, also known as pitch tracking, is fundamental to audio processing
+  with multiple applications in speech processing and music information
+  retrieval. To date, the best performing techniques, such as the pYIN
+  algorithm, are based on a combination of DSP pipelines and heuristics. While
+  such techniques perform very well on average, there remain many cases in
+  which they fail to correctly estimate the pitch. In this paper, we propose a
+  data-driven pitch tracking algorithm, CREPE, which is based on a deep
+  convolutional neural network that operates directly on the time-domain
+  waveform. We show that the proposed model produces state-of-the-art results,
+  performing equally or better than pYIN. Furthermore, we evaluate the model's
+  generalizability in terms of noise robustness. A pre-trained version of CREPE
+  is made freely available as an open-source Python module for easy
+  application.%
+    }
+    \field{note}{arXiv: 1802.06182}
+    \field{shorttitle}{{CREPE}}
+    \field{title}{{CREPE}: {A} {Convolutional} {Representation} for {Pitch}
+  {Estimation}}
+    \verb{url}
+    \verb http://arxiv.org/abs/1802.06182
+    \endverb
+    \verb{file}
+    \verb arXiv Fulltext PDF:/Users/nielswarncke/Zotero/storage/H5J6A2GP/Kim et
+    \verb  al. - 2018 - CREPE A Convolutional Representation for Pitch Es.pdf:a
+    \verb pplication/pdf;arXiv.org Snapshot:/Users/nielswarncke/Zotero/storage/
+    \verb YL9KQ5NM/1802.html:text/html
+    \endverb
+    \field{journaltitle}{arXiv:1802.06182 [cs, eess, stat]}
+    \field{annotation}{%
+    Comment: ICASSP 2018%
+    }
+    \field{month}{02}
+    \field{year}{2018}
+    \field{urlday}{03}
+    \field{urlmonth}{09}
+    \field{urlyear}{2021}
+  \endentry
+\enddatalist
+\endinput

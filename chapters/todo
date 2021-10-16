@@ -1,0 +1,37 @@
+todo
+
+related work:
+
+? diffusion plot
+? wavenet dilated conv layer plot
+
+- gansynth: also learns general instrument abstractions
+- how we could use a diffusion based decoder for our problem
+- 
+
+methods:
+    - show melody, loudness, resynthesis spectrogram
+
+
+conclusion
+- how a polyphonic model could be built from this 
+
+
+
+Intro: 3
+Related: 6
+Methods: 20
+Conclusion: 10
+Appendix:
+- Why unsupervised f0 extraction does not work 5
+- replacing ddsp decoder with parallelwavenet hurts performance 1
+- using w-gan or ls-gan fails as the decoder does not learn 1
+
+
+
+- Refactor fine-tuning to py
+- Start evaluation on regular samples
+- create clean colab notebook
+- upload samples to dashboard
+    - trumpet, twinkle shit
+    - final eval shit

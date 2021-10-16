@@ -1,0 +1,32 @@
+\chapter{Introduction}
+
+
+Autoencoders are self-supervised machine learning models trained to reconstruct inputs from a compressed representation of that input, also called the latent representation.
+They have been applied to various domains such as images, text, and audio.
+Use cases for autoencoders include among others anomaly detection, using them as a pretraining task for other downstream applications, for compression, or as a low-level module for a generative task. \newline
+This thesis builds on the work by \citet{ddsp}, who built an autoencoder for monophonic recordings of harmonic instruments using differential digital signal processing (DDSP) techniques.
+Digital signal processing (DSP) is a field of signal processing that deals with the representation of signals as sequences of numbers and the generation and manipulation of those.
+By implementing DSP techniques in an auto-differential framework such as tensorflow, it is possible to train neural networks that make use of our prior knowledge about audio, making them extremely efficient. \newline
+In concrete terms, this autoencoder uses a pretrained model called CREPE to extract the \textit{fundamental frequency}, a rule-based algorithm to estimate the loudness, and an additional encoder to compute the latent variable $z$ that holds the remaining information necessary to reconstruct the signal. The decoder then controls a synthesizer that outputs the waveform. A more detailed description of this model follows in \Cref{related}. \newline
+A direct application of this model is timbre transfer: a model trained on trumpet sounds will recreate any melody with the timbre of a trumpet.
+The purpose of this thesis is to improve this model, which from now on is called baseline model, such that it can later be used as a low-level module for the task of generating new music, similar to the VQ-VAE in Jukebox by \citet{jukebox}.
+Another potential application that could be developed on top of such an autoencoder is audio source separation i.e. extracting the separate instruments of a polyphonic recording. A sketch of this idea is explained in \Cref{polyphonic}. \newline
+In order to improve the baseline model, a number of changes are proposed, including a novel way of using transfer learning.
+Transfer learning is the research area of using knowledge gained by training a model on one task in order to improve the performance on another related task. For example, if one needs to classify images into a number of custom categories, it can help to use one of the many available models trained on ImageNet.
+There are multiple approaches to perform transfer learning, including using the weights of the pretrained model to initialize a new model or using the first layers of the pretrained model as a feature extractor for a simpler model. \newline
+In this thesis, it is proposed to fine-tune the model on every inference sample for a short time, basically including fine-tuning in the inference pipeline, with the aim of creating an autoencoder that can handle a large variety of instruments that are not necessarily included in any training set. \newline
+
+The contributions of this thesis include multiple general improvements to the baseline model as well as the evaluation of the use of transfer learning.
+The general improvements are:
+\begin{itemize}
+    \item the discovery of a bug in the algorithm for computing loudness which causes the baseline model to produce unpleasant squeaky noises in silent parts
+    \item constraining the latent variable $z$ to be constant over time, which allows using a single model to perform timbre transfer on multiple instruments that are included in the train set. The baseline model can only perform timbre transfer to the single instrument it has been trained on.
+    \item a minor change to the loss function that allows better visualization and - under my subjective impression - is better aligned with the perceptual sound quality leading to more authentic reconstructions
+    \item the proposal to use a cycle consistency loss inspired metric to measure the performance in a timbre transfer task
+\end{itemize}
+
+The rest of this thesis is organized as follows: \Cref{related} gives an overview over related work with a detailed description of the baseline model. \Cref{methods} describes the proposed changes to the baseline, starting with the changes necessary to get a single model to perform timbre transfer onto different target instruments, and an evaluation of how to best fine-tune a multi-instrument model onto new instruments. A discussion of the findings for potential use-cases and future work is given in \Cref{conclusion}. Further details on the training setup and hyperparameters can be found in \Cref{appendix:trainingdetails}
+\newline
+
+A dashboard for exploring the different models that were trained for this thesis is available on \href{https://nielsrolf.github.io?thesis}{nielsrolf.github.io?thesis} - including sound samples, see \Cref{interactivedashboard}.
+The code written for this thesis is available on \href{https://github.com/nielsrolf/ddsp}{github.com/nielsrolf/ddsp}.

@@ -1,0 +1,44 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\contentsline {chapter}{Declaration of Independence}{ii}{section*.1}%
+\contentsline {chapter}{Acknowledgments}{iii}{section*.2}%
+\contentsline {chapter}{Summary (English)}{iv}{section*.2}%
+\contentsline {chapter}{Zusammenfassung (Deutsch)}{v}{section*.2}%
+\contentsline {chapter}{List of Tables}{viii}{section*.4}%
+\contentsline {chapter}{List of Figures}{ix}{section*.6}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Related Work}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Differential Digital Signal Processing (DDSP)}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Other Approaches to Audio Modelling}{8}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Methods}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Baseline architecture}{11}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Measuring Timbre Transfer Performance}{11}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Datasets}{12}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Multi-Instrument Model}{13}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Time constant $z$ enforces $z$ to be a timbre vector}{13}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Loudness}{15}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Multi-Scale Spectrogram Loss}{19}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Bringing it all together}{21}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Few-Shot Transfer to a New Instrument}{25}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Fine-Tuning the Complete Model}{27}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Cycle-Reconstruction Loss as Training Objective}{29}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Fine-Tuning the Decoder Only}{30}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Multitask Fine-Tuning}{30}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Mel-MSS}{31}{subsection.3.3.5}%
+\contentsline {chapter}{\numberline {4}Conclusion \& Future Work}{33}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Polyphonic Audio}{34}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Higher-level Abstractions}{35}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Combining Human-Informed Abstractions with Unconstrained Latent Representations}{36}{section.4.3}%
+\global \c@tocdepth 2\relax 
+\contentsline {chapter}{Appendix}{37}{section*.30}%
+\renewcommand {\cftsecpresnum }{Appendix }
+\renewcommand {\cftsecnumwidth }{5.75em}
+\renewcommand {\cftsecaftersnum }{:}
+\begingroup \let \l@chapter \l@section \let \l@section \l@subsection 
+\contentsline {chapter}{\numberline {A}Why we need CREPE}{38}{appendix.a.A}%
+\contentsline {section}{\numberline {A.1}Spectral Losses Provide Poor Gradients for Learning Pitch}{38}{section.a.A.1}%
+\contentsline {section}{\numberline {A.2}Supervised $f_0$ Learning}{40}{section.a.A.2}%
+\contentsline {chapter}{\numberline {B}Interactive Dashboard}{42}{appendix.a.B}%
+\contentsline {chapter}{\numberline {C}Training Details}{44}{appendix.a.C}%
+\contentsline {section}{\numberline {C.1}Ablation Study Results}{47}{section.a.C.1}%
+\endgroup 
+\contentsline {chapter}{References}{51}{section*.39}%

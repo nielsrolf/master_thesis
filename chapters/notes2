@@ -1,0 +1,17 @@
+- whats an autoencoder
+- aes are interesting if their latent space uncovers interesting features of the signal
+- they have been applied to various domains 
+- can be used for anomaly detection, as a pretraining task, for compression, or as a low-level module for a generative task (jukebox, dalle)
+- this work: builds on DDSP autoencoder
+    - ddsp is efficient due to induced bias
+    - used on monophonic (harmonic) instrument recordings
+    - ddsp allows interesting transformations such as timbre transfer
+    - ddsp could potentially be used as a low-level module for downstream applications
+        - generative tasks (replace vq-vae of jukebox)
+        - audio source separation
+- this work is two folded: 1) improving the baseline model, 2) evaluating transfer learning
+
+transfer learning
+- usually used to transfer knowledge from one task to another
+- here: transfer to any inference task
+- this still allows timbre transfer, source separation, and can be used for generative tasks

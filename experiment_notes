@@ -1,0 +1,52 @@
+# Baseline
+
+Findings:
+- How well does the harmonic noise synthesizer reconstruct different types of sound?
+Drums:
+    - most sounds pretty recognizable, but poor sound quality
+    5/10    0.373   0.385
+URMP:
+    - urmp test also recognizable but some sound off. Cello reconstruction sounds somewhat like a trumpet. Flute and violin are mostly good
+    5/10    4.875   0.316
+    - guitar and bass reconstructions are not recognizable as a guitar
+    2/10    7.7     0.563
+    - drums are completely off
+    0/10    7.921   0.729
+    - sh101 does not sound like a synth, sounds like some kind of instrument
+    2/10    11.7    1.09
+SH101:
+    - sh101 test: very accurate reconstruction, sounds good
+    8/10    5.989   0.493
+
+
+
+- Is z an encoding for the timbre of an instrument which is constant over time
+    - All transfers sound super off
+    - filtered noise is very dominant
+    - squeaky sounds appear
+    - cycle reconstruction: original instrument not recognizable, loud filtered noise, squeaky sounds appear in silent parts
+
+
+# Time average
+
+Reconstruction capability:
+    - URMP 5/10 roughly the same as baseline, maybe even a bit better
+    - bass: 2/10 similar as baseline
+Timbre transfer capability: improved a lot on URMP, did not improve on bass or guitar
+Cycle reconstruction: timbre captured much better, but loud squeaky artifacts remain
+
+# New loudness
+- New loudness better at reconstructing cello urmp_test/audio_original sample 6
+- cycle reconstruction 1: much better trumpet reconstruction, less filtered noise, less squeaky sounds
+- show cycle reconstruction image
+
+# Unskewed Spectral Loss
+- show the same cycle reconstruction image (better score than spectral loudness)
+- no qualitive difference in subjective listening evaluation
+
+# Time Aggregation
+average ~ confidence, groupwise sounds a bit better
+
+# No CREPE:
+everything sounds like nonsense
+ud

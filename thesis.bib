@@ -1,0 +1,308 @@
+
+@misc{noauthor_learning_nodate,
+	title = {Learning to write programs that generate images},
+	url = {/blog/article/learning-to-generate-images},
+	abstract = {Through a human’s eyes, the world is much more than just the images reflected in our corneas. For example, when we look at a building and admire the intricacies of its design, we can appreciate the craftsmanship it requires. This ability to interpret objects through the tools that created them gives us a richer understanding of the world and is an important aspect of our intelligence.We would like our systems to create similarly rich representations of the world. For example, when observing an image of a painting we would like them to understand the brush strokes used to create it and not just the pixels that represent it on a screen.In this work, we equipped artificial agents with the same tools that we use to generate images and demonstrate that they can reason about how digits, characters and portraits are constructed. Crucially, they learn to do this by themselves and without the need for human-labelled datasets. This contrasts with recent research which has so far relied on learning from human demonstrations, which can be a time-intensive process.},
+	language = {ALL},
+	urldate = {2020-10-15},
+	journal = {Deepmind},
+	file = {Snapshot:/Users/p378593/Zotero/storage/I8SZ828Y/learning-to-generate-images.html:text/html}
+}
+
+@article{generative-rl,
+	title = {Synthesizing {Programs} for {Images} using {Reinforced} {Adversarial} {Learning}},
+	abstract = {Advances in deep generative networks have led to impressive results in recent years. Nevertheless, such models can often waste their capacity on the minutiae of datasets, presumably due to weak inductive biases in their decoders. This is where graphics engines may come in handy since they abstract away low-level details and represent images as high-level programs. Current methods that combine deep learning and renderers are limited by hand-crafted likelihood or distance functions, a need for large amounts of supervision, or difﬁculties in scaling their inference algorithms to richer datasets. To mitigate these issues, we present SPIRAL, an adversarially trained agent that generates a program which is executed by a graphics engine to interpret and sample images. The goal of this agent is to fool a discriminator network that distinguishes between real and rendered data, trained with a distributed reinforcement learning setup without any supervision. A surprising ﬁnding is that using the discriminator’s output as a reward signal is the key to allow the agent to make meaningful progress at matching the desired output rendering. To the best of our knowledge, this is the ﬁrst demonstration of an end-to-end, unsupervised and adversarial inverse graphics agent on challenging real world (MNIST, OMNIGLOT, CELEBA) and synthetic 3D datasets. A video of the agent can be found at https://youtu.be/iSyvwAwa7vk.},
+	language = {en},
+	author = {Ganin, Yaroslav and Kulkarni, Tejas and Babuschkin, Igor and Eslami, S M Ali and Vinyals, Oriol},
+	pages = {12},
+	file = {Ganin et al. - Synthesizing Programs for Images using Reinforced .pdf:/Users/p378593/Zotero/storage/5466L9ZU/Ganin et al. - Synthesizing Programs for Images using Reinforced .pdf:application/pdf}
+}
+
+@article{ddsp,
+	title = {{DIFFERENTIABLE} {DIGITAL} {SIGNAL} {PROCESSING}},
+	abstract = {Most generative models of audio directly generate samples in one of two domains: time or frequency. While sufﬁcient to express any signal, these representations are inefﬁcient, as they do not utilize existing knowledge of how sound is generated and perceived. A third approach (vocoders/synthesizers) successfully incorporates strong domain knowledge of signal processing and perception, but has been less actively researched due to limited expressivity and difﬁculty integrating with modern auto-differentiation-based machine learning methods. In this paper, we introduce the Differentiable Digital Signal Processing (DDSP) library, which enables direct integration of classic signal processing elements with deep learning methods. Focusing on audio synthesis, we achieve high-ﬁdelity generation without the need for large autoregressive models or adversarial losses, demonstrating that DDSP enables utilizing strong inductive biases without losing the expressive power of neural networks. Further, we show that combining interpretable modules permits manipulation of each separate model component, with applications such as independent control of pitch and loudness, realistic extrapolation to pitches not seen during training, blind dereverberation of room acoustics, transfer of extracted room acoustics to new environments, and transformation of timbre between disparate sources. In short, DDSP enables an interpretable and modular approach to generative modeling, without sacriﬁcing the beneﬁts of deep learning. The library is publicly available1 and we welcome further contributions from the community and domain experts.},
+	language = {en},
+	author = {Engel, Jesse and Hantrakul, Lamtharn and Gu, Chenjie and Roberts, Adam},
+	year = {2020},
+	pages = {19},
+	file = {Engel et al. - 2020 - DIFFERENTIABLE DIGITAL SIGNAL PROCESSING.pdf:/Users/p378593/Zotero/storage/I7V4YACC/Engel et al. - 2020 - DIFFERENTIABLE DIGITAL SIGNAL PROCESSING.pdf:application/pdf}
+}
+
+@article{karras_analyzing_2020,
+	title = {Analyzing and {Improving} the {Image} {Quality} of {StyleGAN}},
+	url = {http://arxiv.org/abs/1912.04958},
+	abstract = {The style-based GAN architecture (StyleGAN) yields state-of-the-art results in data-driven unconditional generative image modeling. We expose and analyze several of its characteristic artifacts, and propose changes in both model architecture and training methods to address them. In particular, we redesign the generator normalization, revisit progressive growing, and regularize the generator to encourage good conditioning in the mapping from latent codes to images. In addition to improving image quality, this path length regularizer yields the additional benefit that the generator becomes significantly easier to invert. This makes it possible to reliably attribute a generated image to a particular network. We furthermore visualize how well the generator utilizes its output resolution, and identify a capacity problem, motivating us to train larger models for additional quality improvements. Overall, our improved model redefines the state of the art in unconditional image modeling, both in terms of existing distribution quality metrics as well as perceived image quality.},
+	urldate = {2020-10-15},
+	journal = {arXiv:1912.04958 [cs, eess, stat]},
+	author = {Karras, Tero and Laine, Samuli and Aittala, Miika and Hellsten, Janne and Lehtinen, Jaakko and Aila, Timo},
+	month = mar,
+	year = {2020},
+	note = {arXiv: 1912.04958},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Machine Learning, Computer Science - Neural and Evolutionary Computing, Electrical Engineering and Systems Science - Image and Video Processing, Statistics - Machine Learning},
+	file = {arXiv Fulltext PDF:/Users/p378593/Zotero/storage/RMA8LQJC/Karras et al. - 2020 - Analyzing and Improving the Image Quality of Style.pdf:application/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/QZ7SPHCX/1912.html:text/html}
+}
+
+@article{gan-survey,
+	title = {Recent {Progress} on {Generative} {Adversarial} {Networks} ({GANs}): {A} {Survey}},
+	volume = {7},
+	issn = {2169-3536},
+	shorttitle = {Recent {Progress} on {Generative} {Adversarial} {Networks} ({GANs})},
+	doi = {10.1109/ACCESS.2019.2905015},
+	abstract = {Generative adversarial network (GANs) is one of the most important research avenues in the field of artificial intelligence, and its outstanding data generation capacity has received wide attention. In this paper, we present the recent progress on GANs. First, the basic theory of GANs and the differences among different generative models in recent years were analyzed and summarized. Then, the derived models of GANs are classified and introduced one by one. Third, the training tricks and evaluation metrics were given. Fourth, the applications of GANs were introduced. Finally, the problem, we need to address, and future directions were discussed.},
+	journal = {IEEE Access},
+	author = {Pan, Zhaoqing and Yu, Weijie and Yi, Xiaokai and Khan, Asifullah and Yuan, Feng and Zheng, Yuhui},
+	year = {2019},
+	note = {Conference Name: IEEE Access},
+	keywords = {artificial intelligence, data generation capacity, Data models, Deep learning, Feature extraction, Gallium nitride, GANs, generative adversarial network, generative adversarial networks, Generative adversarial networks, generative models, Generators, machine learning, neural nets, Training, unsupervised learning, Unsupervised learning},
+	pages = {36322--36333},
+	file = {IEEE Xplore Full Text PDF:/Users/p378593/Zotero/storage/FKPI8TGF/Pan et al. - 2019 - Recent Progress on Generative Adversarial Networks.pdf:application/pdf;IEEE Xplore Abstract Record:/Users/p378593/Zotero/storage/DUDM2JCV/8667290.html:text/html}
+}
+
+@article{jukebox,
+	title = {Jukebox: {A} {Generative} {Model} for {Music}},
+	shorttitle = {Jukebox},
+	url = {http://arxiv.org/abs/2005.00341},
+	abstract = {We introduce Jukebox, a model that generates music with singing in the raw audio domain. We tackle the long context of raw audio using a multi-scale VQ-VAE to compress it to discrete codes, and modeling those using autoregressive Transformers. We show that the combined model at scale can generate high-fidelity and diverse songs with coherence up to multiple minutes. We can condition on artist and genre to steer the musical and vocal style, and on unaligned lyrics to make the singing more controllable. We are releasing thousands of non cherry-picked samples at https://jukebox.openai.com, along with model weights and code at https://github.com/openai/jukebox},
+	urldate = {2020-10-15},
+	journal = {arXiv:2005.00341 [cs, eess, stat]},
+	author = {Dhariwal, Prafulla and Jun, Heewoo and Payne, Christine and Kim, Jong Wook and Radford, Alec and Sutskever, Ilya},
+	month = apr,
+	year = {2020},
+	note = {arXiv: 2005.00341},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Sound, Electrical Engineering and Systems Science - Audio and Speech Processing},
+	file = {arXiv Fulltext PDF:/Users/p378593/Zotero/storage/SGK3S6IW/Dhariwal et al. - 2020 - Jukebox A Generative Model for Music.pdf:application/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/5FFKUFSF/2005.html:text/html}
+}
+
+@article{gon,
+	title = {Gradient {Origin} {Networks}},
+	url = {http://arxiv.org/abs/2007.02798},
+	abstract = {This paper proposes a new type of generative model that is able to quickly learn a latent representation without an encoder. This is achieved by initialising a latent vector with zeros, then using gradients of the data fitting loss with respect to this zero vector as new latent points. The approach has similar characteristics to autoencoders but with a simpler naturally balanced architecture, and is demonstrated in a variational autoencoder equivalent that permits sampling. This also allows implicit representation networks to learn a space of implicit functions without requiring a hypernetwork, retaining their representation advantages with fewer parameters.},
+	urldate = {2020-10-15},
+	journal = {arXiv:2007.02798 [cs]},
+	author = {Bond-Taylor, Sam and Willcocks, Chris G.},
+	month = jul,
+	year = {2020},
+	note = {arXiv: 2007.02798},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Machine Learning, 68T01 (Primary), 68T07 (Secondary), G.3, I.4.0, I.5.0},
+	annote = {Comment: 6 pages, 9 figures, generalised to non-implicit functions and added new experiments},
+	file = {arXiv Fulltext PDF:/Users/p378593/Zotero/storage/D393YTEH/Bond-Taylor und Willcocks - 2020 - Gradient Origin Networks.pdf:application/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/QSQ7UZDW/2007.html:text/html}
+}
+
+@article{wavenet,
+	title = {{WaveNet}: {A} {Generative} {Model} for {Raw} {Audio}},
+	shorttitle = {{WaveNet}},
+	url = {http://arxiv.org/abs/1609.03499},
+	abstract = {This paper introduces WaveNet, a deep neural network for generating raw audio waveforms. The model is fully probabilistic and autoregressive, with the predictive distribution for each audio sample conditioned on all previous ones; nonetheless we show that it can be efficiently trained on data with tens of thousands of samples per second of audio. When applied to text-to-speech, it yields state-of-the-art performance, with human listeners rating it as significantly more natural sounding than the best parametric and concatenative systems for both English and Mandarin. A single WaveNet can capture the characteristics of many different speakers with equal fidelity, and can switch between them by conditioning on the speaker identity. When trained to model music, we find that it generates novel and often highly realistic musical fragments. We also show that it can be employed as a discriminative model, returning promising results for phoneme recognition.},
+	urldate = {2020-10-15},
+	journal = {arXiv:1609.03499 [cs]},
+	author = {Oord, Aaron van den and Dieleman, Sander and Zen, Heiga and Simonyan, Karen and Vinyals, Oriol and Graves, Alex and Kalchbrenner, Nal and Senior, Andrew and Kavukcuoglu, Koray},
+	month = sep,
+	year = {2016},
+	note = {arXiv: 1609.03499},
+	keywords = {Computer Science - Machine Learning, Computer Science - Sound},
+	file = {arXiv Fulltext PDF:/Users/p378593/Zotero/storage/N239NY9B/Oord et al. - 2016 - WaveNet A Generative Model for Raw Audio.pdf:application/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/QSN7ZY4V/1609.html:text/html}
+}
+
+@article{engel_self-supervised_2020,
+	title = {Self-supervised {Pitch} {Detection} by {Inverse} {Audio} {Synthesis}},
+	url = {https://openreview.net/forum?id=RlVTYWhsky7&fbclid=IwAR15QmETdZ5d3DzpKPjfffYbN5Q6U12-Zj3mgWPiF2EKjKT90lYiXHBIZt4},
+	abstract = {Disentangling pitch and timbre with inverse differentiable audio rendering},
+	language = {en},
+	urldate = {2020-10-15},
+	author = {Engel, Jesse and Swavely, Rigel and Hantrakul, Lamtharn Hanoi and Roberts, Adam and Hawthorne, Curtis},
+	month = jun,
+	year = {2020},
+	file = {Full Text PDF:/Users/p378593/Zotero/storage/GIX3TKLZ/Engel et al. - 2020 - Self-supervised Pitch Detection by Inverse Audio S.pdf:application/pdf;Snapshot:/Users/p378593/Zotero/storage/4X57IJJL/forum.html:text/html}
+}
+
+@article{siren,
+	title = {Implicit {Neural} {Representations} with {Periodic} {Activation} {Functions}},
+	url = {http://arxiv.org/abs/2006.09661},
+	abstract = {Implicitly defined, continuous, differentiable signal representations parameterized by neural networks have emerged as a powerful paradigm, offering many possible benefits over conventional representations. However, current network architectures for such implicit neural representations are incapable of modeling signals with fine detail, and fail to represent a signal's spatial and temporal derivatives, despite the fact that these are essential to many physical signals defined implicitly as the solution to partial differential equations. We propose to leverage periodic activation functions for implicit neural representations and demonstrate that these networks, dubbed sinusoidal representation networks or Sirens, are ideally suited for representing complex natural signals and their derivatives. We analyze Siren activation statistics to propose a principled initialization scheme and demonstrate the representation of images, wavefields, video, sound, and their derivatives. Further, we show how Sirens can be leveraged to solve challenging boundary value problems, such as particular Eikonal equations (yielding signed distance functions), the Poisson equation, and the Helmholtz and wave equations. Lastly, we combine Sirens with hypernetworks to learn priors over the space of Siren functions.},
+	urldate = {2020-10-15},
+	journal = {arXiv:2006.09661 [cs, eess]},
+	author = {Sitzmann, Vincent and Martel, Julien N. P. and Bergman, Alexander W. and Lindell, David B. and Wetzstein, Gordon},
+	month = jun,
+	year = {2020},
+	note = {arXiv: 2006.09661},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Machine Learning, Electrical Engineering and Systems Science - Image and Video Processing},
+	annote = {Comment: Project website: https://vsitzmann.github.io/siren/ Project video: https://youtu.be/Q2fLWGBeaiI},
+	file = {arXiv Fulltext PDF:/Users/p378593/Zotero/storage/9R28HYR5/Sitzmann et al. - 2020 - Implicit Neural Representations with Periodic Acti.pdf:application/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/27TGT8QJ/2006.html:text/html}
+}
+
+@article{vqvae2,
+	title = {Generating {Diverse} {High}-{Fidelity} {Images} with {VQ}-{VAE}-2},
+	url = {http://arxiv.org/abs/1906.00446},
+	abstract = {We explore the use of Vector Quantized Variational AutoEncoder (VQ-VAE) models for large scale image generation. To this end, we scale and enhance the autoregressive priors used in VQ-VAE to generate synthetic samples of much higher coherence and fidelity than possible before. We use simple feed-forward encoder and decoder networks, making our model an attractive candidate for applications where the encoding and/or decoding speed is critical. Additionally, VQ-VAE requires sampling an autoregressive model only in the compressed latent space, which is an order of magnitude faster than sampling in the pixel space, especially for large images. We demonstrate that a multi-scale hierarchical organization of VQ-VAE, augmented with powerful priors over the latent codes, is able to generate samples with quality that rivals that of state of the art Generative Adversarial Networks on multifaceted datasets such as ImageNet, while not suffering from GAN's known shortcomings such as mode collapse and lack of diversity.},
+	urldate = {2020-10-15},
+	journal = {arXiv:1906.00446 [cs, stat]},
+	author = {Razavi, Ali and Oord, Aaron van den and Vinyals, Oriol},
+	month = jun,
+	year = {2019},
+	note = {arXiv: 1906.00446},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Machine Learning, Statistics - Machine Learning},
+	file = {arXiv Fulltext PDF:/Users/p378593/Zotero/storage/RVD6AQZQ/Razavi et al. - 2019 - Generating Diverse High-Fidelity Images with VQ-VA.pdf:application/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/FF9RIK7J/1906.html:text/html}
+}
+
+@article{yamamoto_parallel_2020,
+	title = {Parallel {WaveGAN}: {A} fast waveform generation model based on generative adversarial networks with multi-resolution spectrogram},
+	shorttitle = {Parallel {WaveGAN}},
+	url = {http://arxiv.org/abs/1910.11480},
+	abstract = {We propose Parallel WaveGAN, a distillation-free, fast, and small-footprint waveform generation method using a generative adversarial network. In the proposed method, a non-autoregressive WaveNet is trained by jointly optimizing multi-resolution spectrogram and adversarial loss functions, which can effectively capture the time-frequency distribution of the realistic speech waveform. As our method does not require density distillation used in the conventional teacher-student framework, the entire model can be easily trained. Furthermore, our model is able to generate high-fidelity speech even with its compact architecture. In particular, the proposed Parallel WaveGAN has only 1.44 M parameters and can generate 24 kHz speech waveform 28.68 times faster than real-time on a single GPU environment. Perceptual listening test results verify that our proposed method achieves 4.16 mean opinion score within a Transformer-based text-to-speech framework, which is comparative to the best distillation-based Parallel WaveNet system.},
+	urldate = {2020-10-15},
+	journal = {arXiv:1910.11480 [cs, eess]},
+	author = {Yamamoto, Ryuichi and Song, Eunwoo and Kim, Jae-Min},
+	month = feb,
+	year = {2020},
+	note = {arXiv: 1910.11480},
+	keywords = {Computer Science - Machine Learning, Computer Science - Sound, Electrical Engineering and Systems Science - Audio and Speech Processing, Electrical Engineering and Systems Science - Signal Processing},
+	annote = {Comment: Accepted to the conference of ICASSP 2020},
+	file = {arXiv Fulltext PDF:/Users/p378593/Zotero/storage/FHVIK2NK/Yamamoto et al. - 2020 - Parallel WaveGAN A fast waveform generation model.pdf:application/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/N99MJTG8/1910.html:text/html}
+}
+
+
+@article{vqvae,
+	title = {Neural {Discrete} {Representation} {Learning}},
+	url = {http://arxiv.org/abs/1711.00937},
+	abstract = {Learning useful representations without supervision remains a key challenge in machine learning. In this paper, we propose a simple yet powerful generative model that learns such discrete representations. Our model, the Vector Quantised-Variational AutoEncoder (VQ-VAE), differs from VAEs in two key ways: the encoder network outputs discrete, rather than continuous, codes; and the prior is learnt rather than static. In order to learn a discrete latent representation, we incorporate ideas from vector quantisation (VQ). Using the VQ method allows the model to circumvent issues of "posterior collapse" -- where the latents are ignored when they are paired with a powerful autoregressive decoder -- typically observed in the VAE framework. Pairing these representations with an autoregressive prior, the model can generate high quality images, videos, and speech as well as doing high quality speaker conversion and unsupervised learning of phonemes, providing further evidence of the utility of the learnt representations.},
+	urldate = {2020-10-16},
+	journal = {arXiv:1711.00937 [cs]},
+	author = {Oord, Aaron van den and Vinyals, Oriol and Kavukcuoglu, Koray},
+	month = may,
+	year = {2018},
+	note = {arXiv: 1711.00937},
+	keywords = {Computer Science - Machine Learning},
+	file = {arXiv Fulltext PDF:/Users/p378593/Zotero/storage/2RGQTTNU/Oord et al. - 2018 - Neural Discrete Representation Learning.pdf:application/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/56XPNY56/1711.html:text/html}
+}
+
+@incollection{gan-original,
+	title = {Generative {Adversarial} {Nets}},
+	url = {http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf},
+	urldate = {2020-10-20},
+	booktitle = {Advances in {Neural} {Information} {Processing} {Systems} 27},
+	publisher = {Curran Associates, Inc.},
+	author = {Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
+	editor = {Ghahramani, Z. and Welling, M. and Cortes, C. and Lawrence, N. D. and Weinberger, K. Q.},
+	year = {2014},
+	pages = {2672--2680},
+	file = {NIPS Full Text PDF:/Users/p378593/Zotero/storage/XDP94P8Q/Goodfellow et al. - 2014 - Generative Adversarial Nets.pdf:application/pdf;NIPS Snapshot:/Users/p378593/Zotero/storage/6RTTBAR3/5423-generative-adversarial-nets.html:text/html}
+}
+
+@article{wgan,
+	title = {Wasserstein {GAN}},
+	url = {http://arxiv.org/abs/1701.07875},
+	abstract = {We introduce a new algorithm named WGAN, an alternative to traditional GAN training. In this new model, we show that we can improve the stability of learning, get rid of problems like mode collapse, and provide meaningful learning curves useful for debugging and hyperparameter searches. Furthermore, we show that the corresponding optimization problem is sound, and provide extensive theoretical work highlighting the deep connections to other distances between distributions.},
+	urldate = {2020-10-20},
+	journal = {arXiv:1701.07875 [cs, stat]},
+	author = {Arjovsky, Martin and Chintala, Soumith and Bottou, Léon},
+	month = dec,
+	year = {2017},
+	note = {arXiv: 1701.07875},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
+	file = {arXiv Fulltext PDF:/Users/p378593/Zotero/storage/RLQZ8AGG/Arjovsky et al. - 2017 - Wasserstein GAN.pdf:application/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/REZT8JGX/1701.html:text/html}
+}
+
+@article{bert,
+	title = {{BERT}: {Pre}-training of {Deep} {Bidirectional} {Transformers} for {Language} {Understanding}},
+	shorttitle = {{BERT}},
+	url = {http://arxiv.org/abs/1810.04805},
+	abstract = {We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5\% (7.7\% point absolute improvement), MultiNLI accuracy to 86.7\% (4.6\% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).},
+	urldate = {2020-10-20},
+	journal = {arXiv:1810.04805 [cs]},
+	author = {Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+	month = may,
+	year = {2019},
+	note = {arXiv: 1810.04805},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv Fulltext PDF:/Users/p378593/Zotero/storage/JI5S9KZP/Devlin et al. - 2019 - BERT Pre-training of Deep Bidirectional Transform.pdf:application/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/KJHJC9A4/1810.html:text/html}
+}
+
+@article{gpt3,
+	title = {Language {Models} are {Few}-{Shot} {Learners}},
+	url = {http://arxiv.org/abs/2005.14165},
+	abstract = {Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions - something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic. At the same time, we also identify some datasets where GPT-3's few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora. Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans. We discuss broader societal impacts of this finding and of GPT-3 in general.},
+	urldate = {2020-10-20},
+	journal = {arXiv:2005.14165 [cs]},
+	author = {Brown, Tom B. and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and Agarwal, Sandhini and Herbert-Voss, Ariel and Krueger, Gretchen and Henighan, Tom and Child, Rewon and Ramesh, Aditya and Ziegler, Daniel M. and Wu, Jeffrey and Winter, Clemens and Hesse, Christopher and Chen, Mark and Sigler, Eric and Litwin, Mateusz and Gray, Scott and Chess, Benjamin and Clark, Jack and Berner, Christopher and McCandlish, Sam and Radford, Alec and Sutskever, Ilya and Amodei, Dario},
+	month = jul,
+	year = {2020},
+	note = {arXiv: 2005.14165},
+	keywords = {Computer Science - Computation and Language},
+	annote = {Comment: 40+32 pages},
+	file = {arXiv Fulltext PDF:/Users/p378593/Zotero/storage/G346IHM2/Brown et al. - 2020 - Language Models are Few-Shot Learners.pdf:application/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/HTS6QG4W/2005.html:text/html}
+}
+
+@article{attention,
+	title = {Attention {Is} {All} {You} {Need}},
+	url = {http://arxiv.org/abs/1706.03762},
+	abstract = {The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.},
+	urldate = {2020-10-20},
+	journal = {arXiv:1706.03762 [cs]},
+	author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, Lukasz and Polosukhin, Illia},
+	month = dec,
+	year = {2017},
+	note = {arXiv: 1706.03762},
+	keywords = {Computer Science - Machine Learning, Computer Science - Computation and Language},
+	annote = {Comment: 15 pages, 5 figures},
+	file = {arXiv Fulltext PDF:/Users/p378593/Zotero/storage/XJJ7TKQN/Vaswani et al. - 2017 - Attention Is All You Need.pdf:application/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/TNVT72S4/1706.html:text/html}
+}
+
+@article{music-transformer,
+	title = {Music {Transformer}},
+	url = {http://arxiv.org/abs/1809.04281},
+	abstract = {Music relies heavily on repetition to build structure and meaning. Self-reference occurs on multiple timescales, from motifs to phrases to reusing of entire sections of music, such as in pieces with ABA structure. The Transformer (Vaswani et al., 2017), a sequence model based on self-attention, has achieved compelling results in many generation tasks that require maintaining long-range coherence. This suggests that self-attention might also be well-suited to modeling music. In musical composition and performance, however, relative timing is critically important. Existing approaches for representing relative positional information in the Transformer modulate attention based on pairwise distance (Shaw et al., 2018). This is impractical for long sequences such as musical compositions since their memory complexity for intermediate relative information is quadratic in the sequence length. We propose an algorithm that reduces their intermediate memory requirement to linear in the sequence length. This enables us to demonstrate that a Transformer with our modified relative attention mechanism can generate minute-long compositions (thousands of steps, four times the length modeled in Oore et al., 2018) with compelling structure, generate continuations that coherently elaborate on a given motif, and in a seq2seq setup generate accompaniments conditioned on melodies. We evaluate the Transformer with our relative attention mechanism on two datasets, JSB Chorales and Piano-e-Competition, and obtain state-of-the-art results on the latter.},
+	urldate = {2020-10-26},
+	journal = {arXiv:1809.04281 [cs, eess, stat]},
+	author = {Huang, Cheng-Zhi Anna and Vaswani, Ashish and Uszkoreit, Jakob and Shazeer, Noam and Simon, Ian and Hawthorne, Curtis and Dai, Andrew M. and Hoffman, Matthew D. and Dinculescu, Monica and Eck, Douglas},
+	month = dec,
+	year = {2018},
+	note = {arXiv: 1809.04281},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Sound, Electrical Engineering and Systems Science - Audio and Speech Processing},
+	annote = {Comment: Improved skewing section and accompanying figures. Previous titles are "An Improved Relative Self-Attention Mechanism for Transformer with Application to Music Generation" and "Music Transformer"},
+	file = {arXiv Fulltext PDF:/Users/p378593/Zotero/storage/GGUMK73E/Huang et al. - 2018 - Music Transformer.pdf:application/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/F928GVVV/1809.html:text/html}
+}
+
+@inproceedings{anonymous_diffwave_2020,
+	title = {{DiffWave}: {A} {Versatile} {Diffusion} {Model} for {Audio} {Synthesis}},
+	shorttitle = {{DiffWave}},
+	url = {https://openreview.net/forum?id=a-xFK8Ymz5J},
+	abstract = {In this work, we propose DiffWave, a versatile Diffusion probabilistic model for conditional and unconditional Waveform generation. The model is non-autoregressive, and converts the white noise...},
+	language = {en},
+	urldate = {2020-11-11},
+	author = {Anonymous},
+	month = sep,
+	year = {2020},
+	file = {Full Text PDF:/Users/p378593/Zotero/storage/VAIW2X4I/Anonymous - 2020 - DiffWave A Versatile Diffusion Model for Audio Sy.pdf:application/pdf;Snapshot:/Users/p378593/Zotero/storage/PYHNZ2M4/forum.html:text/html}
+}
+
+@article{michelashvili_hierarchical_2020,
+	title = {Hierarchical {Timbre}-{Painting} and {Articulation} {Generation}},
+	url = {http://arxiv.org/abs/2008.13095},
+	abstract = {We present a fast and high-fidelity method for music generation, based on specified f0 and loudness, such that the synthesized audio mimics the timbre and articulation of a target instrument. The generation process consists of learned source-filtering networks, which reconstruct the signal at increasing resolutions. The model optimizes a multi-resolution spectral loss as the reconstruction loss, an adversarial loss to make the audio sound more realistic, and a perceptual f0 loss to align the output to the desired input pitch contour. The proposed architecture enables high-quality fitting of an instrument, given a sample that can be as short as a few minutes, and the method demonstrates state-of-the-art timbre transfer capabilities. Code and audio samples are shared at https://github.com/mosheman5/timbre\_painting.},
+	urldate = {2020-11-11},
+	journal = {arXiv:2008.13095 [cs, eess]},
+	author = {Michelashvili, Michael and Wolf, Lior},
+	month = sep,
+	year = {2020},
+	note = {arXiv: 2008.13095},
+	keywords = {Computer Science - Machine Learning, Computer Science - Sound, Electrical Engineering and Systems Science - Audio and Speech Processing},
+	annote = {Comment: accepted in Proc. of the 21st International Society for Music Information Retrieval (ISMIR2020)},
+	file = {arXiv Fulltext PDF:/Users/p378593/Zotero/storage/8WLA6SDX/Michelashvili und Wolf - 2020 - Hierarchical Timbre-Painting and Articulation Gene.pdf:application/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/MNLGP9NX/2008.html:text/html}
+}
+
+@article{midinet,
+	title = {{MidiNet}: {A} {Convolutional} {Generative} {Adversarial} {Network} for {Symbolic}-domain {Music} {Generation}},
+	shorttitle = {{MidiNet}},
+	url = {http://arxiv.org/abs/1703.10847},
+	abstract = {Most existing neural network models for music generation use recurrent neural networks. However, the recent WaveNet model proposed by DeepMind shows that convolutional neural networks (CNNs) can also generate realistic musical waveforms in the audio domain. Following this light, we investigate using CNNs for generating melody (a series of MIDI notes) one bar after another in the symbolic domain. In addition to the generator, we use a discriminator to learn the distributions of melodies, making it a generative adversarial network (GAN). Moreover, we propose a novel conditional mechanism to exploit available prior knowledge, so that the model can generate melodies either from scratch, by following a chord sequence, or by conditioning on the melody of previous bars (e.g. a priming melody), among other possibilities. The resulting model, named MidiNet, can be expanded to generate music with multiple MIDI channels (i.e. tracks). We conduct a user study to compare the melody of eight-bar long generated by MidiNet and by Google's MelodyRNN models, each time using the same priming melody. Result shows that MidiNet performs comparably with MelodyRNN models in being realistic and pleasant to listen to, yet MidiNet's melodies are reported to be much more interesting.},
+	urldate = {2020-11-13},
+	journal = {arXiv:1703.10847 [cs]},
+	author = {Yang, Li-Chia and Chou, Szu-Yu and Yang, Yi-Hsuan},
+	month = jul,
+	year = {2017},
+	note = {arXiv: 1703.10847},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Sound},
+	annote = {Comment: 8 pages, Accepted to ISMIR (International Society of Music Information Retrieval) Conference 2017},
+	file = {arXiv Fulltext PDF:/Users/p378593/Zotero/storage/VTDUVTUH/Yang et al. - 2017 - MidiNet A Convolutional Generative Adversarial Ne.pdf:application/pdf;arXiv.org Snapshot:/Users/p378593/Zotero/storage/EWD4B84F/1703.html:text/html}
+}
+

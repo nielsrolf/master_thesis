@@ -1,0 +1,28 @@
+
+\begin{summary}
+
+A recent approach towards modelling audio in a deep learning framework is Differential Digital Signal Processing (DDSP).
+Building blocks such as differential synthesizers are used to induce an audio specific bias into a model.
+As a result, \citet{ddsp} built an extremely data- and compute- efficient autoencoder for audio re-synthesis.
+Such a model can be used for various tasks including timbre transfer: here, the model receives an audio signal as input and outputs a new audio signal with the same melody but a modified timbre. Using the mentioned autoencoder, timbre transfer can be performed to the single instrument the model has been trained on.\newline
+This thesis extends and improves the DDSP autoencoder by a series of ablations.
+The final model can infer the timbre of a short audio signal and synthesize new melodies in the same timbre, without the need for training a completely new model for every instrument. \newline
+The major changes to the DDSP autoencoder are a stronger restriction on the latent space that enforces the model to separate melody and timbre, and the use of transfer learning to quickly adapt to new instruments.
+Additionally, the algorithm to compute loudness and the loss function are improved, and a new metric called cycle reconstruction loss is proposed to measure the model's performance for timbre transfer. \newline
+Finally, applications of the autoencoder for music generation and audio source separation are discussed.
+
+
+\end{summary}
+
+
+\begin{zusammenfassung}
+    Ein neuerer Ansatz zur Modellierung von Audio in einem Deep-Learning-Rahmen ist Differenzierbare Digitale Signalverarbeitung (DDSP).
+    Dabei werden Bausteine wie differentielle Synthesizer verwendet, um einen audiospezifischen Bias in ein Modell einzubringen.
+    Als Ergebnis haben \citet{ddsp} einen extrem daten- und recheneffizienten Autoencoder für Audioresynthese entwickelt.
+    Ein solches Modell kann für verschiedene Aufgaben verwendet werden, unter anderem für die Übertragung von Klangfarben: Das Modell empfängt ein Audiosignal als Eingabe und gibt ein neues Audiosignal mit derselben Melodie, aber einer veränderten Klangfarbe aus. Mit diesem Autoencoder kann die Klangfarbe auf das eine Instrument übertragen werden, für das das Modell trainiert wurde. \newline
+    Diese Arbeit erweitert und verbessert den DDSP-Autoencoder durch eine Reihe von Ablationen.
+    Das resultierende Modell kann die Klangfarbe eines kurzen Audiosignals erkennen und neue Melodien in der gleichen Klangfarbe synthetisieren, ohne dass für jedes Instrument ein komplett neues Modell trainiert werden muss. \newline
+    Die wichtigsten Änderungen am DDSP-Auto-Encoder sind eine stärkere Regularisierung des latenten Raums, die das Modell dazu zwingt, Melodie und Klangfarbe zu trennen, und die Verwendung von Transfer-Lernen zur schnellen Anpassung an neue Instrumente.
+    Außerdem wurden der Algorithmus zur Berechnung der Lautheit und die Fehlerfunktion  verbessert, und es wird eine neue Metrik namens Zyklusrekonstruktionsverlust vorgeschlagen, um die Leistung des Modells bei der Übertragung von Klangfarben zu messen. \newline
+    Schließlich werden Anwendungen des Autoencoders für die Musikerzeugung und die Trennung von Audioquellen diskutiert.
+\end{zusammenfassung}
